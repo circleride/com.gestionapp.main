@@ -42,7 +42,7 @@ result.cancelled
                 "text: " + result.text + "\n" +
                 "format: " + result.format + "\n" +
                 "cancelled: " + result.cancelled + "\n");
-            document.getElementById("info").innerHTML = result.text;
+            //document.getElementById("info").innerHTML = result.text;
             console.log(result);
             /*
             if (args.format == "QR_CODE") {
