@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
-      <change type="DELETED" beforePath="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\js\MWBConfig.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424606997745" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424609622752" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424602701859" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424607611891" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424608380851" ignored="false" />
@@ -35,7 +32,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="60" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.67753625">
+            <state line="31" column="60" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6612319">
               <folding />
             </state>
           </provider>
@@ -298,7 +295,11 @@
       <created>1424607004843</created>
       <updated>1424607004843</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2">
+      <created>1424609629205</created>
+      <updated>1424609629205</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -438,7 +439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="60" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.67753625">
+        <state line="31" column="60" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6612319">
           <folding />
         </state>
       </provider>
