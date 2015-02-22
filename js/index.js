@@ -7,7 +7,6 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         document.getElementById('scan').addEventListener('click', this.scan, false);
-        document.getElementById('encode').addEventListener('click', this.encode, false);
     },
 
     onDeviceReady: function() {
@@ -31,11 +30,13 @@ var app = {
         var scanner = cordova.require("cordova/plugin/BarcodeScanner");
 
         scanner.scan( function (result) {
-
-            $("#info_qr").html("We got a barcode\n" +
-            "Result: " + result.text + "\n" +
-            "Format: " + result.format + "\n" +
-            "Cancelled: " + result.cancelled);
+/*
+result.text
+result.format
+result.cancelled
+* */
+            //$("#info_qr").html("Cifrado: " + result.text + "\n");
+            $("#info_qr").load("https://demo.gestionapp.tk/movil/validate_qr.php?f="+result.format+"&qr=" + result.text + "");
 
            console.log("Scanner result: \n" +
                 "text: " + result.text + "\n" +
@@ -52,19 +53,5 @@ var app = {
         }, function (error) {
             console.log("Scanning failed: ", error);
         } );
-    },
-
-    encode: function() {
-        var scanner = cordova.require("cordova/plugin/BarcodeScanner");
-
-        scanner.encode(scanner.Encode.TEXT_TYPE, "http://www.nhl.com", function(success) {
-            alert("encode success: " + success);
-          }, function(fail) {
-            alert("encoding failed: " + fail);
-          }
-        );
-
     }
-
-
 };
