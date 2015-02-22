@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/MWBConfig.js" afterPath="$PROJECT_DIR$/js/MWBConfig.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424605711589" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424605906552" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424602701859" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424603064366" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424605597104" ignored="false" />
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MWBConfig.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MWBConfig.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/MWBConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
+            <state line="516" column="92" selection-start="22119" selection-end="22119" vertical-scroll-proportion="0.54867256">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="63" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.6017699">
+            <state line="35" column="63" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,9 +92,9 @@
         <option value="$PROJECT_DIR$/PushNotification.js" />
         <option value="$PROJECT_DIR$/js/barcodescanner.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/js/MWBConfig.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/js/MWBConfig.js" />
       </list>
     </option>
   </component>
@@ -300,7 +300,11 @@
       <created>1424605719700</created>
       <updated>1424605719700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2">
+      <created>1424605911501</created>
+      <updated>1424605911501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -424,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="-13.538462">
@@ -441,16 +438,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/MWBConfig.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
+        <state line="35" column="63" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="63" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.6017699">
+        <state line="20" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/MWBConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="516" column="92" selection-start="22119" selection-end="22119" vertical-scroll-proportion="0.54867256">
           <folding />
         </state>
       </provider>

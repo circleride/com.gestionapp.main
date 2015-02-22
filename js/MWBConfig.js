@@ -1,85 +1,3 @@
-/*
-    Version 1.5
-
-    - Added multi-threading support. By default decoder will use all available CPU cores on device. To limit the number
-    of used threads, use new function:  MWBsetMaxThreads: function (maxThreads)
-
-    Version 1.4.1
-
-    - Structure of plugin reorganized to fit plugman specifications
-
-    Version 1.4
-
-    - Added support for custom init and callback functions. All init and callback function can still be declared here,
-    but users can now use an outside Javascript file that they can maintain during updates, so that they don't lose
-    their changes when they update.
-    To use the custom script, they only need to include it in the index file like so:
-     <script type="text/javascript" src="js/MWBConfig.js"></script>
-    To call the scanner with the custom init and callback you use scanner.startScanning(MWBSInitSpace.init,MWBSInitSpace.callback);
-
-    - Added MWBsetCustomParam: function - allows user to put some custom key/value pair which can be used later from native code
-
-    - Added ITF-14 support
-
-    - Added Code 11 support
-
-    - Added MSI Plessey support
-
-    - Added GS1 support
-
-
-    Version 1.3
-    Copyright (c) 2014 Manatee Works. All rights reserved.
-
-    Changes in 1.3:
-
-    - Zoom feature added for iOS and Android. It's not supported on WP8 due to API limitation.
-
-    - Added function to turn Flash ON by default
-
-    - Fixed 'frameworks was not added to the references' on WP8
-
-    - Fixed freezing if missing org.apache.cordova.device plugin
-
-    - Added x86 lib for Android
-
-
-
-    Changes in 1.2:
-
-    - Registering calls moved from native code to MWBScanner.js
-
-    You can now enter your licensing info without changing the native code of plugin;
-
-    - Import package_name.R manually after adding Android plugin is not necessary anymore
-
-    - Decoding library updated to 2.9.31
-
-
-
-    Changes in 1.1:
-
-    - Advanced Overlay (MWBsetOverlayMode: function(overlayMode)
-
-    You can now choose between Simple Image Overlay and MW Dynamic Overlay, which shows the actual
-    viewfinder, depending on selected barcode types and their respective scanning rectangles;
-
-    - Orientation parameter (MWBsetInterfaceOrientation: function(interfaceOrientation))
-
-    Now there's only a single function for supplying orientation parameters which makes tweaking the
-    controller for changing scanner orientation no longer needed;
-
-    - Enable or disable high resolution scanning (MWBenableHiRes: function(enableHiRes))
-
-    Added option to choose between high or normal resolution scanning to better match user
-    application requirements;
-
-    - Flash handling (MWBenableFlash: function(enableFlash))
-
-    Added option to enable or disable the flash toggle button;
-
-
-    */
 
  var CONSTANTS = {
       /**
@@ -595,7 +513,8 @@
             //Perform some action on scanning canceled if needed
             }
             else if (result && result.code){
-                navigator.notification.alert(result.code, function(){}, result.type + (result.isGS1?" (GS1)":""), 'Close');
+                //navigator.notification.alert(result.code, function(){}, result.type + (result.isGS1?" (GS1)":""), 'Close');
+                navigator.notification.alert(result.code, function(){}, 'Resultado', 'Cerrar');
             }
         }
 
