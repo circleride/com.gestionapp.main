@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushNotification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/barcodescanner.js" />
-      <change type="DELETED" beforePath="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\barcodescanner.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/MWBConfig.js" />
+      <change type="DELETED" beforePath="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\js\barcodescanner.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\index_.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\PushNotification.js" afterPath="$PROJECT_DIR$/js/PushNotification.js" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424604795861" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424604862295" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424602701859" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424603064366" ignored="false" />
-    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424604748421" ignored="false" />
+    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424605597104" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="582" selection-end="582" vertical-scroll-proportion="-10.461538">
+            <state line="29" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="-13.538462">
+              <folding>
+                <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MWBConfig.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/MWBConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.4884956">
               <folding />
             </state>
           </provider>
@@ -47,7 +59,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="33" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,25 +68,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="barcodescanner.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/barcodescanner.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="4108" selection-end="4108" vertical-scroll-proportion="1.2647059">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="20" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+            <state line="67" column="53" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,9 +95,10 @@
       <list>
         <option value="$PROJECT_DIR$/barcodescanner.js" />
         <option value="$PROJECT_DIR$/PushNotification.js" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/js/barcodescanner.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/js/MWBConfig.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -239,6 +234,11 @@
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\js" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
@@ -297,7 +297,11 @@
       <created>1424603607430</created>
       <updated>1424603607430</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2">
+      <created>1424604872383</created>
+      <updated>1424604872383</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -407,7 +411,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PushNotification.js">
+    <entry file="file://$PROJECT_DIR$/js/PushNotification.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="0" selection-start="2385" selection-end="2385" vertical-scroll-proportion="1.9411764">
           <folding />
@@ -416,35 +420,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+        <state line="33" column="20" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.7058824">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="33" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="582" selection-end="582" vertical-scroll-proportion="-10.461538">
+        <state line="20" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+        <state line="67" column="53" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/barcodescanner.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="4108" selection-end="4108" vertical-scroll-proportion="1.2647059">
+        <state line="29" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="-13.538462">
+          <folding>
+            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/MWBConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.4884956">
           <folding />
         </state>
       </provider>
