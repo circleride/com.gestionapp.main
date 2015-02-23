@@ -26,6 +26,13 @@
 <div id="Check_Login"></div>
 </div>
 
+<div class="text-center">
+<h1>Verificar Sesi&oacute;n</h1>
+<br>
+<p><a href="#" class="btn btn-success" id="scan">Escanear</a></p>
+<br>
+<p id="info_qr">Pulse sobre el bot&oacute;n Escanear</p>
+</div>
 
 <script>
 var url_server = window.localStorage.getItem("url_server");
@@ -33,7 +40,10 @@ if(url_server)
 {  }
 else { url_server = "http://demo.gestionapp.tk/movil"; }
 var page_index = url_server + "/page.index.php?movil=1&key=&token_push=&page=";
-$("#Index_Form").load(page_index, function(){  });
+$("#Index_Form").load(page_index, function(){
+document.addEventListener('deviceready', this.onDeviceReady, false);
+document.getElementById('scan').addEventListener('click', this.scan, false);
+});
 </script>
 
 <div id="Index_Footer"></div>
