@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/purl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.form.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424729306705" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731113875" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722676297" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424728623642" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731455530" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722352105" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612935009" ignored="false" />
     <file path="/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612883284" ignored="false" />
@@ -22,7 +22,7 @@
     <file path="/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615585337" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/phpunit.xml.dist" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/src/Endroid/QrCode/QrCode.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424730891602" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731543076" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
@@ -30,6 +30,11 @@
     <file path="$PROJECT_DIR$/../../HTML/movil/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424730780640" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731035233" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/header.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731033379" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/page.index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731166607" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/page.footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731275959" ignored="false" />
+    <file path="/page.footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731275959" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/page.header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731282502" ignored="false" />
+    <file path="/page.header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731282502" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="6" selection-start="703" selection-end="703" vertical-scroll-proportion="0.52690166">
+            <state line="12" column="34" selection-start="477" selection-end="477" vertical-scroll-proportion="0.37847868">
               <folding />
             </state>
           </provider>
@@ -382,7 +387,11 @@
       <created>1424729309272</created>
       <updated>1424729309272</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2">
+      <created>1424731126782</created>
+      <updated>1424731126782</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -553,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="703" selection-end="703" vertical-scroll-proportion="0.52690166">
+        <state line="12" column="34" selection-start="477" selection-end="477" vertical-scroll-proportion="0.37847868">
           <folding />
         </state>
       </provider>
