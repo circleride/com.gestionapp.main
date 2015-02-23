@@ -7,7 +7,7 @@
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672650686" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424721427911" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424610662171" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424609834427" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672322440" ignored="false" />
@@ -21,7 +21,7 @@
     <file path="/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615585337" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/phpunit.xml.dist" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/src/Endroid/QrCode/QrCode.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424720056696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722111554" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18923934">
+            <state line="23" column="52" selection-start="860" selection-end="860" vertical-scroll-proportion="0.5584416">
               <folding />
             </state>
           </provider>
@@ -357,7 +357,11 @@
       <created>1424672656057</created>
       <updated>1424672656057</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2">
+      <created>1424721433179</created>
+      <updated>1424721433179</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -490,7 +494,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/logo.png">
@@ -521,7 +527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18923934">
+        <state line="23" column="52" selection-start="860" selection-end="860" vertical-scroll-proportion="0.5584416">
           <folding />
         </state>
       </provider>
