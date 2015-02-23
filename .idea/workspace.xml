@@ -7,10 +7,10 @@
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424732309536" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424732426125" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722676297" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731455530" ignored="false" />
-    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722352105" ignored="false" />
+    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424732665741" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612935009" ignored="false" />
     <file path="/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612883284" ignored="false" />
     <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424728863244" ignored="false" />
@@ -64,7 +64,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.8107607">
+            <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.22077923">
               <folding />
             </state>
           </provider>
@@ -409,7 +409,11 @@
       <created>1424732313940</created>
       <updated>1424732313940</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="2">
+      <created>1424732436727</created>
+      <updated>1424732436727</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -580,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.8107607">
+        <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.22077923">
           <folding />
         </state>
       </provider>
