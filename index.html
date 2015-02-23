@@ -10,20 +10,122 @@
 <title>GestionApp</title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/purl.js"></script>
 
 <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<div class="text-center">
-<h1>Verificar Sesi&oacute;n</h1>
-<br>
-<p><a href="#" class="btn btn-success" id="scan">Escanear</a></p>
-<br>
-<p id="info_qr">Pulse sobre el bot&oacute;n Escanear</p>
+<div id="Index_Header"></div>
 
+<div class="container">
+<div id="Index_Form"></div>
+<div id="CheckValid_Login"></div>
+<div id="Check_Login"></div>
 </div>
+
+
+<script>
+$(document).ready(function() {
+var token_push = window.localStorage.getItem("token_push");
+if(token_push)
+{  }
+else {
+token_push = "";
+}
+
+var page = $.url().param('page');
+
+var url_server = window.localStorage.getItem("url_server");
+if(url_server)
+{  }
+else { url_server = "http://demo.gestionapp.tk/movil/"; }
+
+var loading_text = window.localStorage.getItem("loading_text");
+if(loading_text)
+{  }
+else { loading_text = "Cargando..."; }
+
+var error_text = window.localStorage.getItem("error_text");
+if(error_text)
+{  }
+else { error_text = "Lo sentimos, pero no se pudo contactar al servidor correctamente, pulse aqu&iacute; para reportar este error: <br>"; }
+
+var fck_key = window.localStorage.getItem("key");
+var page_header = url_server + "/page.header.php?movil=1&key="+fck_key+"";
+var page_index = url_server + "/page.index.php?movil=1&key="+fck_key+"&token_push="+token_push+"&page="+page+"";
+var page_footer = url_server + "/page.footer.php?movil=1&key="+fck_key+"";
+
+$("#Index_Form").load(page_index, function(){
+$('#Form_Login').ajaxForm({
+target: '#CheckValid_Login',
+success: function() { $('#CheckValid_Login').fadeIn('slow'); }
+});
+});
+
+$("#Index_Header").load(page_header, function(){  });
+$("#Index_Footer").load(page_footer, function(){  });
+
+//$('#Check_Login').html(fck_key);
+var url_checklogin = url_server + "/check.ajax.php?check=1&movil=1&page="+page+"&token_push="+token_push+"";
+function checkLogin(fck_key){
+    var request = $.ajax({
+        url: url_checklogin,
+        type: "POST",
+        data: { key : fck_key },
+        dataType: "json",
+        beforeSend : function(){
+			$('#Check_Login').html('<div class="container-fluid" align="center"><br>' + loading_text + '<br></div>');
+        }
+    });
+    // RESPONSE
+    request.done(function(data) {
+		$('#Check_Login').empty();
+        if(data["status"] == "ok"){
+			//$('#Check_Login').html("Ok, Valido");
+			$('#Show_Form_Login').hide();
+			$('#Check_Login').html(""+data["msg"]+"");
+        }else{
+            // If the status is not ok, you show an alert and no change the login page
+            //alert(data["msg"],false,'Error','Ok');
+			$('#Check_Login').html(""+data["msg"]+"");
+        }
+    });
+}
+
+$('#Form_Login').ajaxForm({
+        target: '#CheckValid_Login',
+        success: function() {
+            $('#CheckValid_Login').fadeIn('slow');
+        }
+});
+
+window.onload = checkLogin(fck_key);
+
+document.addEventListener('deviceready', onLoL, false);
+function onLoL()
+{
+jQuery.cachedScript = function( url, options ) {
+options = $.extend( options || {}, {
+    dataType: "script",
+    cache: true,
+    url: url
+  });
+  return jQuery.ajax( options );
+};
+var script_header = url_server + "/header.js.php?movil=1&key="+fck_key+"&token_push="+token_push+"";
+$.cachedScript(script_header).done(function( script, textStatus ) {
+})
+.fail(function( jqxhr, settings, exception ) {
+});
+}
+
+});
+</script>
+
+<div id="Index_Footer"></div>
+
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="barcodescanner.js"></script>
