@@ -7,7 +7,7 @@
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731575497" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731782038" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722676297" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731455530" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722352105" ignored="false" />
@@ -25,15 +25,18 @@
     <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722315229" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/index.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731900979" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424730780640" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731035233" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/header.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731033379" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/header.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731927949" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/page.index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731166607" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/page.footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731275959" ignored="false" />
     <file path="/page.footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731275959" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/page.header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731282502" ignored="false" />
     <file path="/page.header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731282502" ignored="false" />
+    <file path="/index.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731894187" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731944161" ignored="false" />
+    <file path="/header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731906943" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="50" selection-start="1938" selection-end="1938" vertical-scroll-proportion="-1.3246753">
+            <state line="33" column="11" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.432282">
               <folding />
             </state>
           </provider>
@@ -394,7 +397,11 @@
       <created>1424731581810</created>
       <updated>1424731581810</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2">
+      <created>1424731787073</created>
+      <updated>1424731787073</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -565,7 +572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="50" selection-start="1938" selection-end="1938" vertical-scroll-proportion="-1.3246753">
+        <state line="33" column="11" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.432282">
           <folding />
         </state>
       </provider>
