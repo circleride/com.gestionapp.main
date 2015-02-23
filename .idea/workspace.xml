@@ -7,21 +7,24 @@
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424667081299" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672650686" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424610662171" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424609834427" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672322440" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612935009" ignored="false" />
     <file path="/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612883284" ignored="false" />
-    <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672601074" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424617199688" ignored="false" />
-    <file path="/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424617074394" ignored="false" />
+    <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719766015" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424720296992" ignored="false" />
+    <file path="/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424720235614" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/composer.json" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424614508145" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424616991435" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717478101" ignored="false" />
     <file path="/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615585337" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/phpunit.xml.dist" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/src/Endroid/QrCode/QrCode.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672602914" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424720056696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="31" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.6304348">
+            <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18923934">
               <folding />
             </state>
           </provider>
@@ -350,7 +353,11 @@
       <created>1424666642377</created>
       <updated>1424666642377</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2">
+      <created>1424672656057</created>
+      <updated>1424672656057</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -375,7 +382,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="16" width="1382" height="760" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -383,7 +390,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18409091" sideWeight="0.6705298" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18409091" sideWeight="0.6705298" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -514,7 +521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.6304348">
+        <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18923934">
           <folding />
         </state>
       </provider>
