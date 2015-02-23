@@ -58,13 +58,7 @@ var page_header = url_server + "/page.header.php?movil=1&key="+fck_key+"";
 var page_index = url_server + "/page.index.php?movil=1&key="+fck_key+"&token_push="+token_push+"&page="+page+"";
 var page_footer = url_server + "/page.footer.php?movil=1&key="+fck_key+"";
 
-$("#Index_Form").load(page_index, function(){
-$('#Form_Login').ajaxForm({
-target: '#CheckValid_Login',
-success: function() { $('#CheckValid_Login').fadeIn('slow'); }
-});
-});
-
+$("#Index_Form").load(page_index, function(){  });
 $("#Index_Header").load(page_header, function(){  });
 $("#Index_Footer").load(page_footer, function(){  });
 
