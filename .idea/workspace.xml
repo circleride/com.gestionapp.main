@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722372318" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424723023948" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722676297" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424609834427" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424728623642" ignored="false" />
     <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722352105" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612935009" ignored="false" />
     <file path="/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612883284" ignored="false" />
-    <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719766015" ignored="false" />
+    <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424728863244" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/movil/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424720296992" ignored="false" />
     <file path="/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424720235614" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/composer.json" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424614508145" ignored="false" />
@@ -21,7 +20,7 @@
     <file path="/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615585337" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/phpunit.xml.dist" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/src/Endroid/QrCode/QrCode.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722111554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424728884933" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
@@ -50,28 +49,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="43" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="38" selection-start="7598" selection-end="7598" vertical-scroll-proportion="0.7292035">
+            <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18923934">
               <folding />
             </state>
           </provider>
@@ -101,9 +82,9 @@
         <option value="$PROJECT_DIR$/js/MWBConfig.js" />
         <option value="$PROJECT_DIR$/js/barcodescanner.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -155,6 +136,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com.gestionapp.main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.gestionapp.main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.gestionapp.main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,7 +365,11 @@
       <created>1424722376734</created>
       <updated>1424722376734</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2">
+      <created>1424723028287</created>
+      <updated>1424723028287</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -520,20 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -541,7 +526,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="38" selection-start="7598" selection-end="7598" vertical-scroll-proportion="0.7292035">
+        <state line="112" column="38" selection-start="7598" selection-end="7598" vertical-scroll-proportion="1.2707964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.7309734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18923934">
           <folding />
         </state>
       </provider>
