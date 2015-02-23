@@ -7,10 +7,10 @@
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424721427911" ignored="false" />
+    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722187524" ignored="false" />
     <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424610662171" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424609834427" ignored="false" />
-    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424672322440" ignored="false" />
+    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722352105" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612935009" ignored="false" />
     <file path="/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612883284" ignored="false" />
     <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719766015" ignored="false" />
@@ -25,6 +25,7 @@
     <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
     <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
+    <file path="$PROJECT_DIR$/../../HTML/movil/index.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722315229" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="52" selection-start="860" selection-end="860" vertical-scroll-proportion="0.5584416">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -361,7 +362,11 @@
       <created>1424721433179</created>
       <updated>1424721433179</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2">
+      <created>1424722192977</created>
+      <updated>1424722192977</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -527,7 +532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="52" selection-start="860" selection-end="860" vertical-scroll-proportion="0.5584416">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
