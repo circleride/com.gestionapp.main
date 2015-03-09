@@ -2,42 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424733450788" ignored="false" />
-    <file path="/config.xml" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424722676297" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731455530" ignored="false" />
-    <file path="/index.html" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424733468709" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612935009" ignored="false" />
-    <file path="/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424612883284" ignored="false" />
-    <file path="/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424728863244" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424733201200" ignored="false" />
-    <file path="/validate_qr.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424733035832" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/composer.json" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424614508145" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717478101" ignored="false" />
-    <file path="/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615585337" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/phpunit.xml.dist" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/apps/qrcode/src/Endroid/QrCode/QrCode.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424615421009" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731543076" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/lib/img_usuario.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424711540452" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/lib/Encrypt_Decrypt.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424717807535" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/apps/gdrive/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424719334495" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731900979" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424730780640" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/header.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731035233" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/header.js" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731927949" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/page.index.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731166607" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/page.footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731275959" ignored="false" />
-    <file path="/page.footer.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731275959" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/movil/page.header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731282502" ignored="false" />
-    <file path="/page.header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731282502" ignored="false" />
-    <file path="/index.js.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731894187" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731944161" ignored="false" />
-    <file path="/header.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424731906943" ignored="false" />
-    <file path="$PROJECT_DIR$/../../HTML/funciones.templates.php" changelist="97448a04-ac3b-477e-bc98-93e60228c04a" time="1424733313595" ignored="false" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="2482">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="880" selection-end="880" vertical-scroll-proportion="0.5992579">
+            <state vertical-scroll-proportion="0.8253425" vertical-offset="113" max-vertical-offset="935">
+              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -79,7 +63,6 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -88,18 +71,15 @@
     </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barcodescanner.js" />
-        <option value="$PROJECT_DIR$/PushNotification.js" />
-        <option value="$PROJECT_DIR$/js/MWBConfig.js" />
-        <option value="$PROJECT_DIR$/js/barcodescanner.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -122,7 +102,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -134,6 +114,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,51 +133,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.gestionapp.main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.gestionapp.main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.gestionapp.main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.gestionapp.main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.gestionapp.main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.gestionapp.main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,38 +166,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="PublishConfig" traceLevel="DETAILS">
-    <servers>
-      <server id="0ffc24cf-cc5f-4727-8bfe-cc8b4e80bd8a">
-        <serverdata />
-      </server>
-      <server id="7ae19616-ecc6-41fb-868e-454b13d33545">
-        <serverdata />
-      </server>
-      <server id="830f3fea-bb21-4f49-99b2-d5e0c96900fb">
-        <serverdata />
-      </server>
-      <server id="951b5b7f-1081-4082-b134-76c1b44e148e">
-        <serverdata />
-      </server>
-      <server id="e30f6d04-964b-41d6-9b09-65976cddc51a">
-        <serverdata />
-      </server>
-    </servers>
-  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="R:\Respaldos\GestionApp\phonegap\com.gestionapp.main\js" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -284,141 +196,214 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="" />
       <created>1424601611239</created>
+      <option name="number" value="Default" />
       <updated>1424601611239</updated>
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1424602369887</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1424602369887</updated>
     </task>
     <task id="LOCAL-00002" summary="2">
       <created>1424602446314</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1424602446315</updated>
     </task>
     <task id="LOCAL-00003" summary="2">
       <created>1424602775792</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1424602775792</updated>
     </task>
     <task id="LOCAL-00004" summary="2">
       <created>1424602938423</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1424602938423</updated>
     </task>
     <task id="LOCAL-00005" summary="2">
       <created>1424603540260</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1424603540260</updated>
     </task>
     <task id="LOCAL-00006" summary="2">
       <created>1424603607430</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1424603607430</updated>
     </task>
     <task id="LOCAL-00007" summary="2">
       <created>1424604872383</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1424604872383</updated>
     </task>
     <task id="LOCAL-00008" summary="2">
       <created>1424605719700</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1424605719700</updated>
     </task>
     <task id="LOCAL-00009" summary="2">
       <created>1424605911501</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1424605911501</updated>
     </task>
     <task id="LOCAL-00010" summary="2">
       <created>1424607004843</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1424607004843</updated>
     </task>
     <task id="LOCAL-00011" summary="2">
       <created>1424609629205</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1424609629205</updated>
     </task>
     <task id="LOCAL-00012" summary="2">
       <created>1424609691484</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1424609691484</updated>
     </task>
     <task id="LOCAL-00013" summary="2">
       <created>1424610063556</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1424610063556</updated>
     </task>
     <task id="LOCAL-00014" summary="2">
       <created>1424610726844</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1424610726844</updated>
     </task>
     <task id="LOCAL-00015" summary="2">
       <created>1424610988098</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
       <updated>1424610988098</updated>
     </task>
     <task id="LOCAL-00016" summary="2">
       <created>1424613502604</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1424613502604</updated>
     </task>
     <task id="LOCAL-00017" summary="2">
       <created>1424613838040</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1424613838040</updated>
     </task>
     <task id="LOCAL-00018" summary="2">
       <created>1424613958876</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1424613958876</updated>
     </task>
     <task id="LOCAL-00019" summary="2">
       <created>1424666642377</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1424666642377</updated>
     </task>
     <task id="LOCAL-00020" summary="2">
       <created>1424672656057</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1424672656057</updated>
     </task>
     <task id="LOCAL-00021" summary="2">
       <created>1424721433179</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1424721433179</updated>
     </task>
     <task id="LOCAL-00022" summary="2">
       <created>1424722192977</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
       <updated>1424722192977</updated>
     </task>
     <task id="LOCAL-00023" summary="2">
       <created>1424722376734</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
       <updated>1424722376734</updated>
     </task>
     <task id="LOCAL-00024" summary="2">
       <created>1424723028287</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
       <updated>1424723028287</updated>
     </task>
     <task id="LOCAL-00025" summary="2">
       <created>1424728894655</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1424728894655</updated>
     </task>
     <task id="LOCAL-00026" summary="2">
       <created>1424729309272</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1424729309272</updated>
     </task>
     <task id="LOCAL-00027" summary="2">
       <created>1424731126782</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1424731126782</updated>
     </task>
     <task id="LOCAL-00028" summary="2">
       <created>1424731581810</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1424731581810</updated>
     </task>
     <task id="LOCAL-00029" summary="2">
       <created>1424731787073</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1424731787073</updated>
     </task>
     <task id="LOCAL-00030" summary="2">
       <created>1424732086573</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1424732086573</updated>
     </task>
     <task id="LOCAL-00031" summary="2">
       <created>1424732313940</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1424732313940</updated>
     </task>
     <task id="LOCAL-00032" summary="2">
       <created>1424732436727</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1424732436727</updated>
     </task>
     <task id="LOCAL-00033" summary="2">
       <created>1424732680980</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
       <updated>1424732680980</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2">
+      <created>1424733505686</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1424733505686</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -446,119 +431,88 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18712121" sideWeight="0.6705298" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18667643" sideWeight="0.6705298" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.8150289" />
     <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.8150289" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="23" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="47" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="41" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="4826" selection-end="4826" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="79" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/logo.png">
@@ -568,8 +522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/PushNotification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2385" selection-end="2385" vertical-scroll-proportion="1.9411764">
-          <folding />
+        <state vertical-scroll-proportion="1.9411764" vertical-offset="0" max-vertical-offset="0">
+          <caret line="66" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -578,27 +532,36 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="38" selection-start="7598" selection-end="7598" vertical-scroll-proportion="1.2707964">
+        <state vertical-scroll-proportion="0.7309734" vertical-offset="0" max-vertical-offset="0">
+          <caret line="47" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.7309734">
+        <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="2482">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="880" selection-end="880" vertical-scroll-proportion="0.5992579">
+        <state vertical-scroll-proportion="0.8253425" vertical-offset="113" max-vertical-offset="935">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
