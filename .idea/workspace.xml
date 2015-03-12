@@ -46,8 +46,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38869864" vertical-offset="198" max-vertical-offset="884">
-              <caret line="25" column="174" selection-start-line="25" selection-start-column="174" selection-end-line="25" selection-end-column="174" />
+            <state vertical-scroll-proportion="0.56335616" vertical-offset="164" max-vertical-offset="935">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -472,7 +472,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426189193000</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="2">
+      <created>1426189327331</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1426189327331</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -648,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38869864" vertical-offset="198" max-vertical-offset="884">
-          <caret line="25" column="174" selection-start-line="25" selection-start-column="174" selection-end-line="25" selection-end-column="174" />
+        <state vertical-scroll-proportion="0.56335616" vertical-offset="164" max-vertical-offset="935">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding />
         </state>
       </provider>
