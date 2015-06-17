@@ -151,7 +151,7 @@ $("#info_geo").load("https://app.sanzon.mx/apps/recorrido/test.php?r="+response+
         */
         var callbackFn = function(location) {
             console.log('[js] BackgroundGeoLocation callback:  ' + location.latitude + ',' + location.longitude);
-            
+$("#info_geo").load("https://app.sanzon.mx/apps/recorrido/test.php?lat="+location.latitude+"&lon="+location.longitude);
             // Update our current-position marker.
             app.setCurrentLocation(location);
 
