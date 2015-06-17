@@ -143,7 +143,7 @@ var app = {
         */
         var yourAjaxCallback = function(response) {
             bgGeo.finish();
-$("#info_geo").load("https://app.sanzon.mx/apps/recorrido/test.php?r="+response+"");
+$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?r="+response+"");
         };
 
         /**
@@ -151,7 +151,7 @@ $("#info_geo").load("https://app.sanzon.mx/apps/recorrido/test.php?r="+response+
         */
         var callbackFn = function(location) {
             console.log('[js] BackgroundGeoLocation callback:  ' + location.latitude + ',' + location.longitude);
-$("#info_geo").load("https://app.sanzon.mx/apps/recorrido/test.php?lat="+location.latitude+"&lon="+location.longitude);
+$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?lat="+location.latitude+"&lon="+location.longitude);
             // Update our current-position marker.
             app.setCurrentLocation(location);
 
@@ -182,7 +182,7 @@ $("#info_geo").load("https://app.sanzon.mx/apps/recorrido/test.php?lat="+locatio
 
         // BackgroundGeoLocation is highly configurable.
         bgGeo.configure(callbackFn, failureFn, {
-            url: 'http://app.sanzon.mx/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
+            url: 'http://demo.gestionapp.tk/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
             params: {
                 auth_token: 'test',    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
                 foo: 'bar'                              //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
