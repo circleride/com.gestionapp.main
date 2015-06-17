@@ -143,6 +143,7 @@ var app = {
         */
         var yourAjaxCallback = function(response) {
             bgGeo.finish();
+
         };
 
         /**
@@ -181,19 +182,19 @@ var app = {
 
         // BackgroundGeoLocation is highly configurable.
         bgGeo.configure(callbackFn, failureFn, {
-            url: 'https://app.sanzon.mx/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
+            url: 'http://app.sanzon.mx/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
             params: {
-                auth_token: 'user_secret_auth_token',    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
+                auth_token: 'test',    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
                 foo: 'bar'                              //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
             },
             desiredAccuracy: 0,
             stationaryRadius: 50,
             distanceFilter: 50,
-            notificationTitle: 'Background tracking', // <-- android only, customize the title of the notification
-            notificationText: 'ENABLED', // <-- android only, customize the text of the notification
+            notificationTitle: 'Seguimiento', // <-- android only, customize the title of the notification
+            notificationText: 'Habilitado', // <-- android only, customize the text of the notification
             activityType: 'AutomotiveNavigation',
             debug: true, // <-- enable this hear sounds for background-geolocation life-cycle.
-            stopOnTerminate: false // <-- enable this to clear background location settings when the app terminates
+            stopOnTerminate: true // <-- enable this to clear background location settings when the app terminates
         });
         
         // Turn ON the background-geolocation system.  The user will be tracked whenever they suspend the app.
