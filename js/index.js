@@ -181,7 +181,7 @@ var app = {
 
         // BackgroundGeoLocation is highly configurable.
         bgGeo.configure(callbackFn, failureFn, {
-            url: 'http://app.sanzon.mx/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
+            url: 'https://app.sanzon.mx/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
             params: {
                 auth_token: 'user_secret_auth_token',    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
                 foo: 'bar'                              //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
