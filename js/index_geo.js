@@ -143,7 +143,7 @@ var app = {
         */
         var yourAjaxCallback = function(response) {
             bgGeo.finish();
-$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?r="+response+"");
+$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude="+location.latitude+"&longitude="+location.longitude+"&platform="+device.platform+"&model="+device.model);
         };
 
         /**
@@ -151,7 +151,7 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?r="+respo
         */
         var callbackFn = function(location) {
             console.log('[js] BackgroundGeoLocation callback:  ' + location.latitude + ',' + location.longitude);
-$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?lat="+location.latitude+"&lon="+location.longitude);
+$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude="+location.latitude+"&longitude="+location.longitude+"&platform="+device.platform+"&model="+device.model);
             // Update our current-position marker.
             app.setCurrentLocation(location);
 
