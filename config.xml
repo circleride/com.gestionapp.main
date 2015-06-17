@@ -6,15 +6,15 @@
         id        = "com.sanzongeo.main"
         version   = "1.0.0">
 
-    <name>Sanzon Geo</name>
+    <name>Sanzon</name>
 
-    <description>
-        Recorridos
-    </description>
+<description>
+Geo
+</description>
 
-    <author href="http://sanzon.mx" email="soporte@gestionapp.tk">
-        Sanzon
-    </author>
+<author href="http://www.sanzon.mx" email="soporte@sanzon.mx">
+Sanzon
+</author>
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -25,7 +25,7 @@
 <feature name="http://api.phonegap.com/1.0/device" />
 <feature name="debug-server" required="true">
        <param name="domain" value="http://debug.phonegap.com"/>
-       <param name="key" value="gestionapp"/>
+       <param name="key" value="sanzon"/>
 </feature>
 
 
