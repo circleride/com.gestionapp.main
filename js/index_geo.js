@@ -184,8 +184,8 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?lat="+loc
         bgGeo.configure(callbackFn, failureFn, {
             url: 'http://demo.gestionapp.tk/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
             params: {
-                auth_token: 'test',    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
-                foo: 'bar'                              //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
+                model: device.model,    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
+                platform: device.platform
             },
             desiredAccuracy: 0,
             stationaryRadius: 50,
