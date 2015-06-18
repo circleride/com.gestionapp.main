@@ -168,7 +168,8 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude=
             url: 'http://demo.gestionapp.tk/apps/recorrido/test.php', // <-- Android ONLY:  your server url to send locations to
             params: {
                 model: device.model,    //  <-- Android ONLY:  HTTP POST params sent to your server when persisting locations.
-                platform: device.platform
+                platform: device.platform,
+                bg: '1'
             },
             desiredAccuracy: 0,
             stationaryRadius: 50,
