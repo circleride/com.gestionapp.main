@@ -66,8 +66,8 @@
       <file leaf-file-name="index_geo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index_geo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34754097" vertical-offset="2253" max-vertical-offset="6409">
-              <caret line="145" column="186" selection-start-line="145" selection-start-column="186" selection-end-line="145" selection-end-column="186" />
+            <state vertical-scroll-proportion="-1.3524591" vertical-offset="4191" max-vertical-offset="6409">
+              <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -273,12 +273,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00011" summary="2">
-      <created>1424609629205</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1424609629205</updated>
     </task>
     <task id="LOCAL-00012" summary="2">
       <created>1424609691484</created>
@@ -568,7 +562,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434563214215</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="2">
+      <created>1434581893018</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1434581893019</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -760,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index_geo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34754097" vertical-offset="2253" max-vertical-offset="6409">
-          <caret line="145" column="186" selection-start-line="145" selection-start-column="186" selection-end-line="145" selection-end-column="186" />
+        <state vertical-scroll-proportion="-1.3524591" vertical-offset="4191" max-vertical-offset="6409">
+          <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

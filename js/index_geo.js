@@ -190,8 +190,8 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude=
             desiredAccuracy: 0,
             stationaryRadius: 50,
             distanceFilter: 50,
-            notificationTitle: 'Un cabron', // <-- android only, customize the title of the notification
-            notificationText: 'Observa donde estas :D', // <-- android only, customize the text of the notification
+            notificationTitle: 'Seguimiento', // <-- android only, customize the title of the notification
+            notificationText: 'Activo', // <-- android only, customize the text of the notification
             activityType: 'AutomotiveNavigation',
             debug: true, // <-- enable this hear sounds for background-geolocation life-cycle.
             stopOnTerminate: true // <-- enable this to clear background location settings when the app terminates
