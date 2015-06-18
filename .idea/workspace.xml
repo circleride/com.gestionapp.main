@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geo.html" afterPath="$PROJECT_DIR$/geo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index_geo.js" afterPath="$PROJECT_DIR$/js/index_geo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.gestionapp.main.iws" />
@@ -34,51 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.884615" vertical-offset="368" max-vertical-offset="952">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="geo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.23077" vertical-offset="266" max-vertical-offset="850">
-              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_geo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/index_geo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44262296" vertical-offset="5425" max-vertical-offset="6188">
-              <caret line="335" column="39" selection-start-line="335" selection-start-column="39" selection-end-line="335" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2567">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7962329" vertical-offset="164" max-vertical-offset="850">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -272,12 +231,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00018" summary="2">
-      <created>1424613958876</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1424613958876</updated>
     </task>
     <task id="LOCAL-00019" summary="2">
       <created>1424666642377</created>
@@ -567,7 +520,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434613164129</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="2">
+      <created>1434613774304</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1434613774304</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -733,14 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.884615" vertical-offset="368" max-vertical-offset="952">
@@ -749,18 +700,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geo.html">
+    <entry file="file://$PROJECT_DIR$/js/index_geo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.23077" vertical-offset="266" max-vertical-offset="850">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.5262295" vertical-offset="5374" max-vertical-offset="6188">
+          <caret line="335" column="39" selection-start-line="335" selection-start-column="39" selection-end-line="335" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index_geo.js">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44262296" vertical-offset="5425" max-vertical-offset="6188">
-          <caret line="335" column="39" selection-start-line="335" selection-start-column="39" selection-end-line="335" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.9004815" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7962329" vertical-offset="164" max-vertical-offset="850">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="36" />
           <folding />
         </state>
       </provider>
