@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geo.html" afterPath="$PROJECT_DIR$/geo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index_geo.js" afterPath="$PROJECT_DIR$/js/index_geo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -67,8 +66,8 @@
       <file leaf-file-name="index_geo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index_geo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5295082" vertical-offset="3368" max-vertical-offset="6171">
-              <caret line="253" column="46" selection-start-line="253" selection-start-column="46" selection-end-line="253" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.28032786" vertical-offset="1478" max-vertical-offset="6171">
+              <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -272,12 +271,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00014" summary="2">
-      <created>1424610726844</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1424610726844</updated>
     </task>
     <task id="LOCAL-00015" summary="2">
       <created>1424610988098</created>
@@ -567,7 +560,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434603255215</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="2">
+      <created>1434603667910</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1434603667910</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -741,14 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="204" max-vertical-offset="833">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
@@ -757,10 +748,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538" vertical-offset="204" max-vertical-offset="833">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/index_geo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5295082" vertical-offset="3368" max-vertical-offset="6171">
-          <caret line="253" column="46" selection-start-line="253" selection-start-column="46" selection-end-line="253" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.28032786" vertical-offset="1478" max-vertical-offset="6171">
+          <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
           <folding />
         </state>
       </provider>

@@ -95,10 +95,10 @@ var app = {
         }
         if (ENV.settings.enabled == 'true') {
             this.btnEnabled.addClass('btn-danger');
-            this.btnEnabled[0].innerHTML = 'Stop';
+            this.btnEnabled[0].innerHTML = 'Detener';
         } else {
             this.btnEnabled.addClass('btn-success');
-            this.btnEnabled[0].innerHTML = 'Start';
+            this.btnEnabled[0].innerHTML = 'Iniciar';
         }
         
         this.btnHome.on('click', this.onClickHome);
