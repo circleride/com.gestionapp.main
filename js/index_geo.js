@@ -134,7 +134,7 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude=
         */
         var callbackFn = function(location) {
             console.log('[js] BackgroundGeoLocation callback:  ' + location.latitude + ',' + location.longitude);
-$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude="+location.latitude+"&longitude="+location.longitude+"&platform="+device.platform+"&model="+device.model+"&a=1");
+$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude="+location.latitude+"&longitude="+location.longitude+"&platform="+device.platform+"&model="+device.model+"&a=2");
             // Update our current-position marker.
             app.setCurrentLocation(location);
 
@@ -341,7 +341,7 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude=
                 position: new google.maps.LatLng(prevLocation.latitude, prevLocation.longitude)
             }));
 
-$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude="+prevLocation.latitude+"&longitude="+prevLocation.longitude+"&platform="+device.platform+"&model="+device.model+"&a=1&pl=1");
+$("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude="+prevLocation.latitude+"&longitude="+prevLocation.longitude+"&platform="+device.platform+"&model="+device.model+"&a=3&pl=1");
 
         }
 
