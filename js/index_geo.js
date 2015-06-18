@@ -247,11 +247,11 @@ $("#info_geo").load("http://demo.gestionapp.tk/apps/recorrido/test.php?latitude=
 
         if (isEnabled == 'true') {
             btnEnabled.addClass('btn-danger');
-            btnEnabled[0].innerHTML = 'Stop';
+            btnEnabled[0].innerHTML = 'Detener';
             bgGeo.start();
         } else {
             btnEnabled.addClass('btn-success');
-            btnEnabled[0].innerHTML = 'Start';
+            btnEnabled[0].innerHTML = 'Iniciar';
             bgGeo.stop();
         }
     },
