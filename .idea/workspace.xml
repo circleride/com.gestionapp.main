@@ -66,11 +66,9 @@
       <file leaf-file-name="index_geo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index_geo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3524591" vertical-offset="4191" max-vertical-offset="6409">
-              <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.69344264" vertical-offset="5561" max-vertical-offset="6171">
+              <caret line="352" column="20" selection-start-line="352" selection-start-column="20" selection-end-line="352" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -273,12 +271,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00012" summary="2">
-      <created>1424609691484</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1424609691484</updated>
     </task>
     <task id="LOCAL-00013" summary="2">
       <created>1424610063556</created>
@@ -568,7 +560,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434581893019</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="2">
+      <created>1434592668797</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1434592668797</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -760,11 +758,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index_geo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3524591" vertical-offset="4191" max-vertical-offset="6409">
-          <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.69344264" vertical-offset="5561" max-vertical-offset="6171">
+          <caret line="352" column="20" selection-start-line="352" selection-start-column="20" selection-end-line="352" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
