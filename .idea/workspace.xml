@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="2">
+    <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -36,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5588235" vertical-offset="153" max-vertical-offset="986">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.3529412" vertical-offset="391" max-vertical-offset="986">
+              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -205,12 +205,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00030" summary="2">
-      <created>1424732086573</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1424732086573</updated>
     </task>
     <task id="LOCAL-00031" summary="2">
       <created>1424732313940</created>
@@ -500,7 +494,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448313803375</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="1">
+      <created>1448314885550</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1448314885550</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -569,7 +569,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.8150289" />
   </component>
   <component name="XDebuggerManager">
@@ -714,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5588235" vertical-offset="153" max-vertical-offset="986">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.3529412" vertical-offset="391" max-vertical-offset="986">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
           <folding />
         </state>
       </provider>
