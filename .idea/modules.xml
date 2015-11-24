@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/com.gestionapp.main.iml" filepath="$PROJECT_DIR$/.idea/com.gestionapp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mx.sanzon.app.iml" filepath="$PROJECT_DIR$/.idea/mx.sanzon.app.iml" />
     </modules>
   </component>
 </project>
-
