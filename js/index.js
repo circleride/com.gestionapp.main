@@ -123,8 +123,20 @@ $("#app-status-ul").append('<li>error:'+ error +'</li>');
 }
 document.addEventListener('deviceready', onDeviceReadyPush, true);
 
-
-
+if (navigator.geolocation) {
+//navigator.geolocation.watchPosition(showPosition);
+navigator.geolocation.getCurrentPosition(showPosition);
+//alert("Geolicalizacion soportada.");
+} else {
+//alert("Geolicalizacion no soportada.");
+}
+function showPosition(position) {
+var geo_info = "lat=" + position.coords.latitude + "&lon=" + position.coords.longitude;
+window.localStorage.setItem("User_Lat", position.coords.latitude);
+window.localStorage.setItem("User_Lon", position.coords.longitude);
+window.localStorage.setItem("geo_aprox", position.coords.accuracy);
+alert(geo_info);
+}
 
 var app = {
 initialize: function() {
@@ -165,8 +177,12 @@ scan: function() {
 var scanner = cordova.require("cordova/plugin/BarcodeScanner");
 scanner.scan( function (result) {
 
+var User_Lat = window.localStorage.getItem("User_Lat");
+var User_Lon = window.localStorage.getItem("User_Lon");
+var geo_aprox = window.localStorage.getItem("geo_aprox");
+
 $("#info_qr").html("Espere un momento...");
-$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?f="+result.format+"&qr=" + result.text + "&token_push=" + window.localStorage.getItem("token_push") + "");
+$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?f="+result.format+"&qr=" + result.text + "&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
 
 if (result.format == "QR_CODE") {
 window.plugins.childBrowser.showWebPage(args.text, { showLocationBar: false });
