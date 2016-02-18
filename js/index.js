@@ -191,7 +191,7 @@ window.plugins.childBrowser.showWebPage(args.text, { showLocationBar: false });
 }, function (error) {
 alert("Escaneo cancelado: " + error);
 $("#info_qr").html("Espere un momento...");
-$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?m="+error+"&token_push=" + window.localStorage.getItem("token_push"));
+$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?m="+error+"&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
 } );
 }
 };

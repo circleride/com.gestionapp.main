@@ -54,8 +54,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82828283">
-              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7710438">
+              <caret line="194" column="2" selection-start-line="194" selection-start-column="2" selection-end-line="194" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -249,12 +249,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00044" summary="2">
-      <created>1434527050147</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1434527050147</updated>
     </task>
     <task id="LOCAL-00045" summary="2">
       <created>1434527946513</created>
@@ -544,7 +538,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455817724096</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary=":)">
+      <created>1455818242884</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1455818242884</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82828283">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7710438">
+          <caret line="194" column="2" selection-start-line="194" selection-start-column="2" selection-end-line="194" selection-end-column="2" />
           <folding />
         </state>
       </provider>
