@@ -135,7 +135,7 @@ var geo_info = "lat=" + position.coords.latitude + "&lon=" + position.coords.lon
 window.localStorage.setItem("User_Lat", position.coords.latitude);
 window.localStorage.setItem("User_Lon", position.coords.longitude);
 window.localStorage.setItem("geo_aprox", position.coords.accuracy);
-alert(geo_info);
+//alert(geo_info);
 }
 
 var app = {
