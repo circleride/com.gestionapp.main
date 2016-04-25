@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "DT_RowId": "row_1",
+      "usuario": "fdfds",
+      "nombre": "fdsf",
+      "apellido_paterno": "fsdf",
+      "apellido_materno": "dfsd",
+      "es_red": "Si"
+    },
+    {
+      "DT_RowId": "row_2",
+      "usuario": "ioiuo",
+      "nombre": "ouiofsdsad",
+      "apellido_paterno": "ñlñkl",
+      "apellido_materno": "dasd4",
+      "es_red": "No"
+    }
+  ],
+  "options": [],
+  "files": []
+}
