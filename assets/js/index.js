@@ -59,10 +59,12 @@ console.log('Received Event: ' + id);
 */
 
 var url_server = localStorage.getItem('url_server');
+var url_server_def = "https://app2.sanzon.mx";
 if (!url_server) {
-url_server = "https://app2.sanzon.mx";
+window.url_server = url_server_def;
+localStorage.setItem('url_server', url_server_def);
+} else {
 window.url_server = url_server;
-localStorage.setItem('url_server', url_server);
 }
 
 function guid() {
@@ -72,9 +74,12 @@ return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
 return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
 }
 var my_uuid = localStorage.getItem('my_uuid');
+var my_uuid_def = guid();
 if (!my_uuid) {
-my_uuid = guid();
-localStorage.setItem('my_uuid', my_uuid);
+window.my_uuid = my_uuid_def;
+localStorage.setItem('my_uuid', my_uuid_def);
+} else {
+window.my_uuid = url_server;
 }
 
 if (navigator.geolocation) {
