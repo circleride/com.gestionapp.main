@@ -73,34 +73,27 @@
 <div class="am-content">
 <!--- Fin Header --->
 
+<script>
+var online = navigator.onLine;
+if(navigator.onLine) {
+$.ajaxSetup({ async:true, cache: true });
+$.getScript('/movil/api.get_script.php', function(){
+$(".loaded_content_ajax").html("<div align='center'>Cargando...</div>");
+});
+} else {
+$(".loaded_content_ajax").html("<div align='center'><a href='index.html'>Sin conexi&oacute;n a la red, refrescar p&aacute;gina.</a></div>");
+}
+</script>
 
-<div class="page-head">
-<h2>Test</h2>
-</div>
-<div class="main-content">
-
-<div class="text-center">
-<h3>Herramientas:</h3>
-<br>
-<h4>Verificar Sesi&oacute;n</h4>
-<p><a href="#" class="btn btn-success" id="scan">Escanear</a></p>
-<br>
-<p id="info_qr">Pulse sobre el bot&oacute;n Escanear</p>
-</div>
-
-<hr>
-<div id="info_device">...</div>
-
-<div id="registration" class="blink">
-<p class="event waiting">Requesting Registration ID</p>
-<p class="event received">Registered</p>
+<div class="loaded_content_ajax">
+<div class="loaded_subcontent_ajax"></div>
 </div>
 
-</div>
-</div>
 
 <!--- Inicio Footer --->
 </div>
+</div>
+
 <nav class="am-right-sidebar">
 <div class="sb-content">
 <!--- INCIO FASE 2 -->

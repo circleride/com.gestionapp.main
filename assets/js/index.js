@@ -58,6 +58,25 @@ console.log('Received Event: ' + id);
 };
 */
 
+var url_server = localStorage.getItem('url_server');
+if (!url_server) {
+url_server = "https://app2.sanzon.mx";
+window.url_server = url_server;
+localStorage.setItem('url_server', url_server);
+}
+
+function guid() {
+function s4() {
+return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
+}
+return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+}
+var my_uuid = localStorage.getItem('my_uuid');
+if (!my_uuid) {
+my_uuid = guid();
+localStorage.setItem('my_uuid', my_uuid);
+}
+
 if (navigator.geolocation) {
 //navigator.geolocation.watchPosition(showPosition);
 navigator.geolocation.getCurrentPosition(showPosition);
@@ -126,20 +145,16 @@ var app = {
                 localStorage.setItem('registrationId', data.registrationId);
                 // Post registrationId to your app server as the value has changed
             }
-
             var parentElement = document.getElementById('registration');
             var listeningElement = parentElement.querySelector('.waiting');
             var receivedElement = parentElement.querySelector('.received');
-
             listeningElement.setAttribute('style', 'display:none;');
             receivedElement.setAttribute('style', 'display:block;');
         });
-
         push.on('error', function(e) {
             console.log("push error = " + e.message);
-            $("#info_device").append(JSON.stringify(data));
+            $("#info_device").append(JSON.stringify(e));
         });
-
         push.on('notification', function(data) {
             $("#info_device").append(JSON.stringify(data));
             console.log('notification event');
@@ -174,20 +189,5 @@ $("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?m="+error+"&token
 );
 }
 
-/*
-var scanner = cordova.require("cordova/plugin/BarcodeScanner");
-scanner.scan( function (result) {
-$("#info_qr").html("Espere un momento...");
-$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?f="+result.format+"&qr=" + result.text + "&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
-if (result.format == "QR_CODE") {
-window.plugins.childBrowser.showWebPage(args.text, { showLocationBar: false });
-}
-}, function (error) {
-alert("Escaneo cancelado: " + error);
-$("#info_qr").html("Espere un momento...");
-$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?m="+error+"&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
-} );
-}
-*/
 };
 
