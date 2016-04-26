@@ -45,7 +45,7 @@
 
 <script src="assets/js/purl.js"></script>
 <script src="assets/js/jquery.form.min.js"></script>
-
+<script type="text/javascript" src="assets/js/index.js"></script>
 </head>
 <body>
 
@@ -81,7 +81,9 @@ $.getScript(window.url_server+'/movil/api.get_script.php', function(){
 $(".loaded_content_ajax").html("<div align='center'>Cargando...</div>");
 });
 } else {
+$.getScript('assets/js/offline.js', function(){
 $(".loaded_content_ajax").html("<div align='center'><a href='index.html'>Sin conexi&oacute;n a la red, refrescar p&aacute;gina.</a></div>");
+});
 }
 </script>
 
@@ -111,7 +113,7 @@ Espacio para mas opciones
 <script src="assets/js/push.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="barcodescanner.js"></script>
-<script type="text/javascript" src="assets/js/index.js"></script>
+
 <!-- <script type="text/javascript" src="http://app.sanzon.tk/movil/index.js.php"></script>-->
 <script type="text/javascript">
 app.initialize();
