@@ -78,11 +78,11 @@ var online = navigator.onLine;
 if(navigator.onLine) {
 $.ajaxSetup({ async:true, cache: true });
 $.getScript(window.url_server+'/movil/api.get_script.php', function(){
-$(".loaded_content_ajax").html("<div align='center'>Cargando...</div>");
+$(".loaded_content_ajax").html("<div class='main-content'><div align='center'>Cargando...</div></div>");
 });
 } else {
 $.getScript('assets/js/offline.js', function(){
-$(".loaded_content_ajax").html("<div align='center'><a href='index.html'>Sin conexi&oacute;n a la red, refrescar p&aacute;gina.</a></div>");
+$(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a href='index.html'>Sin conexi&oacute;n a la red, refrescar p&aacute;gina.</a></div></div>");
 });
 }
 </script>
