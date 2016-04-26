@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <list id="0e065af8-908c-4922-853f-7994c8f032cc" name="Failed commit: Default" comment="1" />
     <ignored path="com.gestionapp.main.iws" />
@@ -322,12 +321,6 @@
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
     </task>
-    <task id="LOCAL-00075" summary="2">
-      <created>1446740646550</created>
-      <option name="number" value="00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1446740646592</updated>
-    </task>
     <task id="LOCAL-00076" summary="2">
       <created>1448313377708</created>
       <option name="number" value="00076" />
@@ -616,7 +609,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461696864880</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary=":)">
+      <created>1461696929090</created>
+      <option name="number" value="00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1461696929090</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="ToolWindowManager">
