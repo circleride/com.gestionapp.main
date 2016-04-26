@@ -78,6 +78,12 @@
 <!--- Fin Header --->
 
 <script>
+function handleOpenURL(url) {
+  setTimeout(function() {
+    alert("received url: " + url);
+  }, 0);
+}
+
 var push = PushNotification.init({
     android: {
         senderID: "725227860513"
