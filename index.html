@@ -77,7 +77,7 @@
 var online = navigator.onLine;
 if(navigator.onLine) {
 $.ajaxSetup({ async:true, cache: true });
-$.getScript('/movil/api.get_script.php', function(){
+$.getScript(window.url_server+'/movil/api.get_script.php', function(){
 $(".loaded_content_ajax").html("<div align='center'>Cargando...</div>");
 });
 } else {

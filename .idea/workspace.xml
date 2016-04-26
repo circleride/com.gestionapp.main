@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/index.js" afterPath="$PROJECT_DIR$/assets/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <list id="0e065af8-908c-4922-853f-7994c8f032cc" name="Failed commit: Default" comment="1" />
@@ -55,8 +54,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52112675">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31161973">
+              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -322,12 +321,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00074" summary="2">
-      <created>1435691634192</created>
-      <option name="number" value="00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1435691634227</updated>
     </task>
     <task id="LOCAL-00075" summary="2">
       <created>1446740646550</created>
@@ -617,7 +610,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461657946095</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary=":)">
+      <created>1461696864880</created>
+      <option name="number" value="00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1461696864880</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -823,14 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/jquery/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -841,10 +832,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52112675">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31161973">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
