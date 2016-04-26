@@ -153,11 +153,30 @@ var app = {
 },
 
 scan: function() {
-var scanner = cordova.require("cordova/plugin/BarcodeScanner");
-scanner.scan( function (result) {
 var User_Lat = window.localStorage.getItem("User_Lat");
 var User_Lon = window.localStorage.getItem("User_Lon");
 var geo_aprox = window.localStorage.getItem("geo_aprox");
+cordova.plugins.barcodeScanner.scan(
+function (result) {
+//alert("We got a barcode\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
+$("#info_qr").html("Espere un momento...");
+$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?f="+result.format+"&qr=" + result.text + "&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
+if (result.format == "QR_CODE") {
+window.plugins.childBrowser.showWebPage(args.text, { showLocationBar: false });
+}
+},
+function (error) {
+//alert("Scanning failed: " + error);
+alert("Escaneo cancelado: " + error);
+$("#info_qr").html("Espere un momento...");
+$("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?m="+error+"&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
+}
+);
+}
+
+/*
+var scanner = cordova.require("cordova/plugin/BarcodeScanner");
+scanner.scan( function (result) {
 $("#info_qr").html("Espere un momento...");
 $("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?f="+result.format+"&qr=" + result.text + "&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
 if (result.format == "QR_CODE") {
@@ -169,5 +188,6 @@ $("#info_qr").html("Espere un momento...");
 $("#info_qr").load("http://app.sanzon.tk/movil/validate_qr.php?m="+error+"&token_push=" + window.localStorage.getItem("token_push") + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox);
 } );
 }
-
+*/
 };
+
