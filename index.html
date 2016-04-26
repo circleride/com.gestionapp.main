@@ -77,13 +77,23 @@
 <div class="am-content">
 <!--- Fin Header --->
 
+
+<div class="page-head">
+<h2>Test</h2>
+</div>
+<div class="main-content">
+
+BODY!!!
+<hr>
+<div id="info_device">...</div>
+
+
 <script>
 function handleOpenURL(url) {
   setTimeout(function() {
-    alert("received url: " + url);
+    alert("Recibido: " + url);
   }, 0);
 }
-
 var push = PushNotification.init({
     android: {
         senderID: "725227860513"
@@ -93,7 +103,7 @@ var push = PushNotification.init({
         badge: "true",
         sound: "true"
     },
-    windows: {}
+windows: {}
 });
 push.on('registration', function(data) {
 $("#info_device").append(JSON.stringify(data));
@@ -111,16 +121,8 @@ push.on('error', function(e) {
 // e.message
 $("#info_device").append(JSON.stringify(e));
 });
+PushNotification.init();
 </script>
-
-<div class="page-head">
-<h2>Test</h2>
-</div>
-<div class="main-content">
-
-BODY!!!
-<hr>
-<div id="info_device">...</div>
 
 </div>
 </div>
