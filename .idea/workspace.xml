@@ -1,210 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment=":)">
+    <list default="true" id="97448a04-ac3b-477e-bc98-93e60228c04a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/css/themes/theme-cake.css" afterPath="$PROJECT_DIR$/assets/css/themes/theme-cake.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/css/themes/theme-google.css" afterPath="$PROJECT_DIR$/assets/css/themes/theme-google.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/css/themes/theme-sunrise.css" afterPath="$PROJECT_DIR$/assets/css/themes/theme-sunrise.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/css/themes/theme-twilight.css" afterPath="$PROJECT_DIR$/assets/css/themes/theme-twilight.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/140x140.png" afterPath="$PROJECT_DIR$/assets/img/140x140.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/404-img.png" afterPath="$PROJECT_DIR$/assets/img/404-img.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar2.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar3.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar4.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar5.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar6.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar7.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/avatar8.jpg" afterPath="$PROJECT_DIR$/assets/img/avatar8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/bitbucket.png" afterPath="$PROJECT_DIR$/assets/img/bitbucket.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/db-icon.png" afterPath="$PROJECT_DIR$/assets/img/db-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/dribbble.png" afterPath="$PROJECT_DIR$/assets/img/dribbble.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/fl-icon.png" afterPath="$PROJECT_DIR$/assets/img/fl-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery1.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery2.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery3.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery5.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery6.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery7.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/gallery8.jpg" afterPath="$PROJECT_DIR$/assets/img/gallery8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/github.png" afterPath="$PROJECT_DIR$/assets/img/github.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/in-icon.png" afterPath="$PROJECT_DIR$/assets/img/in-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/logo-full-retina.png" afterPath="$PROJECT_DIR$/assets/img/logo-full-retina.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/logo-full.png" afterPath="$PROJECT_DIR$/assets/img/logo-full.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/logo.png" afterPath="$PROJECT_DIR$/assets/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/profile.jpg" afterPath="$PROJECT_DIR$/assets/img/profile.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/slack.png" afterPath="$PROJECT_DIR$/assets/img/slack.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/img/slack_logo.png" afterPath="$PROJECT_DIR$/assets/img/slack_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/PushNotification.js" afterPath="$PROJECT_DIR$/assets/js/PushNotification.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/index.js" afterPath="$PROJECT_DIR$/assets/js/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/index_geo.js" afterPath="$PROJECT_DIR$/assets/js/index_geo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jquery.form.min.js" afterPath="$PROJECT_DIR$/assets/js/jquery.form.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jquery.geocomplete.js" afterPath="$PROJECT_DIR$/assets/js/jquery.geocomplete.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/jstree.js" afterPath="$PROJECT_DIR$/assets/js/jstree/jstree.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/jstree.min.js" afterPath="$PROJECT_DIR$/assets/js/jstree/jstree.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default-dark/32px.png" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default-dark/32px.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default-dark/40px.png" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default-dark/40px.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default-dark/style.css" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default-dark/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default-dark/style.min.css" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default-dark/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default-dark/throbber.gif" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default-dark/throbber.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default/32px.png" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default/32px.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default/40px.png" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default/40px.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default/style.css" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default/style.min.css" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default/style.min_old.css" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default/style.min_old.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/jstree/themes/default/throbber.gif" afterPath="$PROJECT_DIR$/assets/js/jstree/themes/default/throbber.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/logger.js" afterPath="$PROJECT_DIR$/assets/js/logger.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/pace/pace.css" afterPath="$PROJECT_DIR$/assets/js/pace/pace.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/pace/pace.min.js" afterPath="$PROJECT_DIR$/assets/js/pace/pace.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/purl.js" afterPath="$PROJECT_DIR$/assets/js/purl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/push.js" afterPath="$PROJECT_DIR$/assets/js/push.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/js/sms.js" afterPath="$PROJECT_DIR$/assets/js/sms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/bootstrap-markdown/js/bootstrap-markdown.js" afterPath="$PROJECT_DIR$/assets/lib/bootstrap-markdown/js/bootstrap-markdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/bootstrap-slider/css/bootstrap-slider.css" afterPath="$PROJECT_DIR$/assets/lib/bootstrap-slider/css/bootstrap-slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/bootstrap-slider/js/bootstrap-slider.js" afterPath="$PROJECT_DIR$/assets/lib/bootstrap-slider/js/bootstrap-slider.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/lib/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/chartjs/Chart.min.js" afterPath="$PROJECT_DIR$/assets/lib/chartjs/Chart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/countup/countUp.min.js" afterPath="$PROJECT_DIR$/assets/lib/countup/countUp.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/DataTablesEditor.zip" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/DataTablesEditor.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/Usuarios.html" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/Usuarios.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/css/demo.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/css/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/css/editor.bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/css/editor.bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/css/editor.dataTables.min.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/css/editor.dataTables.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/css/editor.foundation.min.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/css/editor.foundation.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/css/editor.jqueryui.min.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/css/editor.jqueryui.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/css/generator-base.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/css/generator-base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/images/ajax-loader-small.gif" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/images/ajax-loader-small.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/assets/lib/datatables/images/ajax-loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/images/calender.png" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/images/calender.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/images/close.png" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/images/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/images/shadow_left.png" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/images/shadow_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/images/shadow_right.png" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/images/shadow_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/js/dataTables.editor.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/js/dataTables.editor.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/js/editor.bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/js/editor.bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/js/editor.foundation.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/js/editor.foundation.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/js/editor.jqueryui.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/js/editor.jqueryui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/js/table.Usuarios.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/js/table.Usuarios.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Bootstrap.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Bootstrap.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/DataTables.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/DataTables.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Database.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Database.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Mysql/Query.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Mysql/Query.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Mysql/Result.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Mysql/Result.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Oracle/Query.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Oracle/Query.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Oracle/Result.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Oracle/Result.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Postgres/Query.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Postgres/Query.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Postgres/Result.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Postgres/Result.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlite/Query.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlite/Query.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlite/Result.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlite/Result.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlserver/Query.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlserver/Query.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlserver/Result.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Driver/Sqlserver/Result.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Query.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Query.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Database/Result.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Database/Result.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Editor.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Editor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Field.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Field.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Format.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Format.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Join.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Join.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Mjoin.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Mjoin.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Upload.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Upload.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Editor/Validate.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Editor/Validate.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Ext/Ext.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Ext/Ext.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Vendor/Htmlaw.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Vendor/Htmlaw.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/Vendor/htmLawed/htmLawed.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/Vendor/htmLawed/htmLawed.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/lib/config.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/lib/config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/php/table.Usuarios.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/php/table.Usuarios.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/Trash/sql/table.Usuarios.sql" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/sql/table.Usuarios.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/css/dataTables.bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/css/dataTables.bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/css/editor.dataTables.min.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/css/editor.dataTables.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/css/generator-base.css" afterPath="$PROJECT_DIR$/assets/lib/datatables/css/generator-base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/assets/lib/datatables/Trash/images/ajax-loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/js/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/js/dataTables.bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/js/dataTables.editor.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/js/dataTables.editor.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/js/jquery.dataTables.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/js/test.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/js/test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/plugins/buttons/js/buttons.bootstrap.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/plugins/buttons/js/buttons.bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/plugins/buttons/js/buttons.colVis.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/plugins/buttons/js/buttons.colVis.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/plugins/buttons/js/buttons.flash.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/plugins/buttons/js/buttons.flash.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/plugins/buttons/js/buttons.html5.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/plugins/buttons/js/buttons.html5.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/plugins/buttons/js/buttons.print.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/plugins/buttons/js/buttons.print.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/plugins/buttons/js/dataTables.buttons.js" afterPath="$PROJECT_DIR$/assets/lib/datatables/plugins/buttons/js/dataTables.buttons.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/table.784cb0db-f3c7-11e5-90b3-002590dcfa5d.ajax" afterPath="$PROJECT_DIR$/assets/lib/datatables/table.784cb0db-f3c7-11e5-90b3-002590dcfa5d.ajax" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datatables/test.php" afterPath="$PROJECT_DIR$/assets/lib/datatables/test.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/assets/lib/datetimepicker/css/bootstrap-datetimepicker.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/dropzone/dist/dropzone.css" afterPath="$PROJECT_DIR$/assets/lib/dropzone/dist/dropzone.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/dropzone/dist/dropzone.js" afterPath="$PROJECT_DIR$/assets/lib/dropzone/dist/dropzone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/lib/font-awesome/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/fuelux/js/wizard.js" afterPath="$PROJECT_DIR$/assets/lib/fuelux/js/wizard.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery-flot/jquery.flot.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-flot/jquery.flot.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery-flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-flot/jquery.flot.pie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery-flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-flot/jquery.flot.resize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery-flot/plugins/curvedLines.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-flot/plugins/curvedLines.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery-flot/plugins/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-flot/plugins/jquery.flot.orderBars.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery-ui/jquery-ui.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui/jquery-ui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.fullcalendar/fullcalendar.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.fullcalendar/fullcalendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.fullcalendar/fullcalendar.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.fullcalendar/fullcalendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.fullcalendar/fullcalendar.print.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.fullcalendar/fullcalendar.print.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.gritter/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.gritter/css/jquery.gritter.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.gritter/js/jquery.gritter.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.gritter/js/jquery.gritter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.magnific-popup/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.magnific-popup/jquery.magnific-popup.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.magnific-popup/magnific-popup.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.magnific-popup/magnific-popup.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.maskedinput/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.maskedinput/jquery.maskedinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.nanoscroller/css/nanoscroller.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.nanoscroller/css/nanoscroller.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.nanoscroller/javascripts/jquery.nanoscroller.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.nanoscroller/javascripts/jquery.nanoscroller.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.nestable/jquery.nestable.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.nestable/jquery.nestable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.niftymodals/css/component.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.niftymodals/css/component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.niftymodals/js/jquery.modalEffects.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.niftymodals/js/jquery.modalEffects.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.sparkline/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.sparkline/jquery.sparkline.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/jquery-jvectormap-1.2.2.css" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/jquery-jvectormap-1.2.2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/jquery-jvectormap-1.2.2.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/jquery-jvectormap-1.2.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-au-mill-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-au-mill-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-ca-lcc-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-ca-lcc-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-fr-merc-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-fr-merc-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-in-mill-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-in-mill-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-map.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-uk-mill-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-uk-mill-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-us-il-chicago-mill-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-us-il-chicago-mill-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js" afterPath="$PROJECT_DIR$/assets/lib/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/markdown-js/markdown.js" afterPath="$PROJECT_DIR$/assets/lib/markdown-js/markdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/masonry/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/assets/lib/masonry/masonry.pkgd.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/moment.js/min/moment.min.js" afterPath="$PROJECT_DIR$/assets/lib/moment.js/min/moment.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/morrisjs/morris.css" afterPath="$PROJECT_DIR$/assets/lib/morrisjs/morris.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/morrisjs/morris.min.js" afterPath="$PROJECT_DIR$/assets/lib/morrisjs/morris.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/bold-italic/opensans-bold-italic-webfont.ttf" afterPath="$PROJECT_DIR$/assets/lib/open-sans/bold-italic/opensans-bold-italic-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/bold-italic/opensans-bold-italic-webfont.woff" afterPath="$PROJECT_DIR$/assets/lib/open-sans/bold-italic/opensans-bold-italic-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/bold/opensans-bold-webfont.woff" afterPath="$PROJECT_DIR$/assets/lib/open-sans/bold/opensans-bold-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/italic/opensans-italic-webfont.ttf" afterPath="$PROJECT_DIR$/assets/lib/open-sans/italic/opensans-italic-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/italic/opensans-italic-webfont.woff" afterPath="$PROJECT_DIR$/assets/lib/open-sans/italic/opensans-italic-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/light/opensans-light-webfont.woff" afterPath="$PROJECT_DIR$/assets/lib/open-sans/light/opensans-light-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/regular/opensans-regular-webfont.woff" afterPath="$PROJECT_DIR$/assets/lib/open-sans/regular/opensans-regular-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/open-sans/semibold/opensans-semibold-webfont.woff" afterPath="$PROJECT_DIR$/assets/lib/open-sans/semibold/opensans-semibold-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/parsley/parsley.min.js" afterPath="$PROJECT_DIR$/assets/lib/parsley/parsley.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/prettify/prettify.js" afterPath="$PROJECT_DIR$/assets/lib/prettify/prettify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/raleway/medium/raleway-medium.woff" afterPath="$PROJECT_DIR$/assets/lib/raleway/medium/raleway-medium.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/raleway/regular/raleway-regular.woff" afterPath="$PROJECT_DIR$/assets/lib/raleway/regular/raleway-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/raleway/semibold/raleway-semibold.woff" afterPath="$PROJECT_DIR$/assets/lib/raleway/semibold/raleway-semibold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/raphael/raphael-min.js" afterPath="$PROJECT_DIR$/assets/lib/raphael/raphael-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/select2/css/select2.min.css" afterPath="$PROJECT_DIR$/assets/lib/select2/css/select2.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/select2/js/select2.min.js" afterPath="$PROJECT_DIR$/assets/lib/select2/js/select2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/skycons/skycons.js" afterPath="$PROJECT_DIR$/assets/lib/skycons/skycons.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/stroke-7/fonts/Stroke-7.ttf" afterPath="$PROJECT_DIR$/assets/lib/stroke-7/fonts/Stroke-7.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/stroke-7/style.css" afterPath="$PROJECT_DIR$/assets/lib/stroke-7/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/summernote/summernote-ext-amaretti.js" afterPath="$PROJECT_DIR$/assets/lib/summernote/summernote-ext-amaretti.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/summernote/summernote.css" afterPath="$PROJECT_DIR$/assets/lib/summernote/summernote.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/summernote/summernote.min.js" afterPath="$PROJECT_DIR$/assets/lib/summernote/summernote.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/theme-switcher/theme-switcher.min.css" afterPath="$PROJECT_DIR$/assets/lib/theme-switcher/theme-switcher.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/assets/lib/theme-switcher/theme-switcher.min.js" afterPath="$PROJECT_DIR$/assets/lib/theme-switcher/theme-switcher.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Imagen_Perfil.jpg" afterPath="$PROJECT_DIR$/img/Imagen_Perfil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Logo_Sanzon.png" afterPath="$PROJECT_DIR$/img/Logo_Sanzon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Logo_Sanzon_White.png" afterPath="$PROJECT_DIR$/img/Logo_Sanzon_White.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <list id="0e065af8-908c-4922-853f-7994c8f032cc" name="Failed commit: Default" comment="1" />
     <ignored path="com.gestionapp.main.iws" />
@@ -235,8 +33,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20950705">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2693662">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -430,12 +228,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00059" summary="2">
-      <created>1434563214215</created>
-      <option name="number" value="00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1434563214215</updated>
     </task>
     <task id="LOCAL-00060" summary="2">
       <created>1434581893018</created>
@@ -725,12 +517,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461640548645</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary=":)">
+      <created>1461641290370</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1461641290370</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17170954" sideWeight="0.6705298" order="1" side_tool="false" content_ui="combo" />
@@ -941,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20950705">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2693662">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding />
         </state>
       </provider>
