@@ -28,7 +28,7 @@
 <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1"/>
 <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
 <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
-<plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
+<plugin name="cordova-plugin-whitelist" source="npm" />
 
 <gap:plugin name="com.phonegap.plugins.barcodescanner" source="npm" />
 <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
@@ -62,7 +62,6 @@
 <splash src="www/res/screen/windows/SplashScreen.scale-100.png" platform="windows" width="620" height="300"/>-->
 </platform>
 
-<plugin name="cordova-plugin-whitelist" version="1" />
 <access origin="*"/>
 <allow-intent href="http://*/*"/>
 <allow-intent href="https://*/*"/>
