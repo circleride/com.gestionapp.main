@@ -97,8 +97,10 @@ window.localStorage.setItem("geo_aprox", position.coords.accuracy);
 //alert("Geolicalizacion no soportada.");
 }
 
+window.handle_url = "";
 function handleOpenURL(url) {
 setTimeout(function() {
 //alert("Recibido: " + url);
+window.handle_url = url;
 }, 0);
 }
