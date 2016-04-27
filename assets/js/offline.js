@@ -1,4 +1,3 @@
-
 var app = {
     initialize: function() {
         this.bindEvents();
@@ -34,11 +33,9 @@ var app = {
             "windows": {}
         });
         console.log('after init');
-
         push.on('registration', function(data) {
             $("#info_device").append(JSON.stringify(data));
             console.log('registration event: ' + data.registrationId);
-
             var oldRegId = localStorage.getItem('registrationId');
             if (oldRegId !== data.registrationId) {
                 // Save new registration ID
