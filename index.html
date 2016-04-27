@@ -105,9 +105,10 @@ Espacio para mas opciones
 <script type="text/javascript" charset="ISO-8859-1">
 document.addEventListener("offline", onOffline, false);
 document.addEventListener("online", onOnline, false);
+var token_push = window.localStorage.getItem("token_push");
 function onOnline() {
 $.ajaxSetup({ async:true, cache: true });
-$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid+'&handle_url='+window.handle_url, function(){
+$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid+'&token_push=' + window.localStorage.getItem('token_push')+'&handle_url='+window.handle_url, function(){
 $(".loaded_content_ajax").html("<div class='main-content'><div align='center'>Cargando...</div></div>");
 });
 }
