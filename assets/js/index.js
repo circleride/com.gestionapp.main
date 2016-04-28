@@ -59,7 +59,7 @@ console.log('Received Event: ' + id);
 */
 
 var url_server = localStorage.getItem('url_server');
-var url_server_def = "https://app2.sanzon.mx";
+var url_server_def = "https://app.sanzon.mx";
 if (!url_server) {
 window.url_server = url_server_def;
 localStorage.setItem('url_server', url_server_def);

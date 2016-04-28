@@ -100,9 +100,6 @@ Espacio para mas opciones
 </div>
 
 
-
-<!-- <script type="text/javascript" src="localhost/movil/index.js.php"></script>-->
-
 <script type="text/javascript" charset="ISO-8859-1">
 window.onOnline = function onOnline(handle) {
 if(handle) {  } else { handle = window.handle_url; }
@@ -119,7 +116,7 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><i
 window.load_page = function load_page(page){
 if(page) {
 $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><i class='fa fa-cog fa-spin'></i></div></div>");
-$.getJSON(window.url_server+"html.templates.php", { key: window.my_uuid, html: page, ajax: 'true' }, function (j) {
+$.getJSON(window.url_server+"/movil/html.templates.php", { key: window.my_uuid, html: page, ajax: 'true' }, function (j) {
 var data_html = j['html'];
 $(".loaded_content_ajax").html(data_html);
 });
