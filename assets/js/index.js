@@ -102,6 +102,7 @@ function handleOpenURL(url) {
 setTimeout(function() {
 //alert("Recibido: " + url);
 window.handle_url = url;
+window.onOnline(url);
 }, 0);
 }
 
@@ -141,7 +142,7 @@ var app = {
         });
         console.log('after init');
         push.on('registration', function(data) {
-            $("#info_device").append(JSON.stringify(data));
+            //$("#info_device").append(JSON.stringify(data));
             window.localStorage.setItem("token_push", JSON.stringify(data));
             console.log('registration event: ' + data.registrationId);
             var oldRegId = localStorage.getItem('registrationId');
@@ -158,10 +159,12 @@ var app = {
         });
         push.on('error', function(e) {
             console.log("push error = " + e.message);
-            $("#info_device").append(JSON.stringify(e));
+            //$("#info_device").append(JSON.stringify(e));
+            window.localStorage.setItem("token_push", JSON.stringify(e));
         });
         push.on('notification', function(data) {
-            $("#info_device").append(JSON.stringify(data));
+            //$("#info_device").append(JSON.stringify(data));
+            window.localStorage.setItem("token_push", JSON.stringify(data));
             console.log('notification event');
             navigator.notification.alert(
                 data.message,         // message
