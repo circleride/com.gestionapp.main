@@ -118,12 +118,12 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><i
 
 window.load_page = function load_page(page){
 if(page) {
-$.ajaxSetup({ async:true, cache: true });
-$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid, function(){
 $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><i class='fa fa-cog fa-spin'></i></div></div>");
+$.getJSON(url_server+"html.templates.php", { key: window.my_uuid, html: page, ajax: 'true' }, function (j) {
+var data_html = j['html'];
+$(".loaded_content_ajax").html(data_html);
 });
-}
-}
+} }
 
 function onOffline() {
 $.getScript('assets/js/offline.js', function(){
