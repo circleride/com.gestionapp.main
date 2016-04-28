@@ -79,7 +79,7 @@ if (!my_uuid) {
 window.my_uuid = my_uuid_def;
 localStorage.setItem('my_uuid', my_uuid_def);
 } else {
-window.my_uuid = url_server;
+window.my_uuid = my_uuid;
 }
 
 if (navigator.geolocation) {
