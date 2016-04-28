@@ -109,7 +109,7 @@ var token_push = window.localStorage.getItem("token_push");
 window.onOnline = function onOnline(handle) {
 if(handle) {  } else { handle = window.handle_url; }
 $.ajaxSetup({ async:true, cache: true });
-$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid+'&token_push=' + window.localStorage.getItem('token_push')+'&handle_url='+handle, function(){
+$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid+'&token_push=' + window.localStorage.getItem('token_push')+'device='+JSON.stringify(device)+'&handle_url='+JSON.stringify(handle), function(){
 $(".loaded_content_ajax").html("<div class='main-content'><div align='center'>Cargando...</div></div>");
 });
 }
