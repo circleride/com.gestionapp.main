@@ -54,8 +54,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40140846">
-              <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.46126762">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/offline.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="25" />
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -312,12 +312,6 @@
       <created>1424601611239</created>
       <option name="number" value="Default" />
       <updated>1424601611239</updated>
-    </task>
-    <task id="LOCAL-00094" summary=":)">
-      <created>1455818340867</created>
-      <option name="number" value="00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1455818340867</updated>
     </task>
     <task id="LOCAL-00095" summary=":)">
       <created>1455818364410</created>
@@ -607,7 +601,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461824417004</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary=":)">
+      <created>1461824799494</created>
+      <option name="number" value="00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1461824799495</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -861,28 +861,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/offline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/offline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40140846">
-          <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.46126762">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

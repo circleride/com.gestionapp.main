@@ -104,8 +104,6 @@ Espacio para mas opciones
 <!-- <script type="text/javascript" src="localhost/movil/index.js.php"></script>-->
 
 <script type="text/javascript" charset="ISO-8859-1">
-document.addEventListener("offline", onOffline, false);
-document.addEventListener("online", onOnline, false);
 var token_push = window.localStorage.getItem("token_push");
 
 window.onOnline = function onOnline(handle) {
@@ -122,6 +120,9 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 });
 }
 
+document.addEventListener("offline", onOffline, false);
+document.addEventListener("online", ActivateOnline, false);
+function ActivateOnline(){ window.onOnline(); }
 </script>
 
 <script type="text/javascript">
