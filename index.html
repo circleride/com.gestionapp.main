@@ -104,12 +104,14 @@ Espacio para mas opciones
 <!-- <script type="text/javascript" src="localhost/movil/index.js.php"></script>-->
 
 <script type="text/javascript" charset="ISO-8859-1">
-var token_push = window.localStorage.getItem("token_push");
-
 window.onOnline = function onOnline(handle) {
 if(handle) {  } else { handle = window.handle_url; }
+var token_push = window.localStorage.getItem("token_push");
+var User_Lat = window.localStorage.getItem("User_Lat");
+var User_Lon = window.localStorage.getItem("User_Lon");
+var geo_aprox = window.localStorage.getItem("geo_aprox");
 $.ajaxSetup({ async:true, cache: true });
-$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid+'&token_push=' + window.localStorage.getItem('token_push')+'device='+JSON.stringify(device)+'&handle_url='+JSON.stringify(handle), function(){
+$.getScript(window.url_server+'/movil/api.get_script.php?key='+window.my_uuid+'&token_push=' + window.localStorage.getItem('token_push')+'&device='+JSON.stringify(device) + "&lat="+User_Lat + "&lon="+User_Lon + "&geo_aprox="+geo_aprox+'&handle_url='+JSON.stringify(handle), function(){
 $(".loaded_content_ajax").html("<div class='main-content'><div align='center'>Cargando...</div></div>");
 });
 }
