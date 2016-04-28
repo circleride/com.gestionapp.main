@@ -34,7 +34,7 @@ var app = {
         });
         console.log('after init');
         push.on('registration', function(data) {
-            $("#info_device").append(JSON.stringify(data));
+            //$("#info_device").append(JSON.stringify(data));
             console.log('registration event: ' + data.registrationId);
             var oldRegId = localStorage.getItem('registrationId');
             if (oldRegId !== data.registrationId) {
@@ -50,10 +50,10 @@ var app = {
         });
         push.on('error', function(e) {
             console.log("push error = " + e.message);
-            $("#info_device").append(JSON.stringify(e));
+            //$("#info_device").append(JSON.stringify(e));
         });
         push.on('notification', function(data) {
-            $("#info_device").append(JSON.stringify(data));
+            //$("#info_device").append(JSON.stringify(data));
             console.log('notification event');
             navigator.notification.alert(
                 data.message,         // message
