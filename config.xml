@@ -61,7 +61,7 @@
 <gap:plugin name="de.appplant.cordova.plugin.background-mode" />
 
 <!-- <gap:plugin name="cordova-sms-plugin" source="npm" /> -->
-<plugin name="com.cordova.plugins.sms" spec="0.1.1" source="pgb" />
+<plugin name="com.cordova.plugins.sms" source="pgb" />
 
 <gap:config-file platform="ios" parent="CFBundleShortVersionString">
 <string>100</string>
