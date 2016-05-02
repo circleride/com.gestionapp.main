@@ -67,6 +67,14 @@ localStorage.setItem('url_server', url_server_def);
 window.url_server = url_server;
 }
 
+var id_cliente = window.localStorage.getItem("id_cliente");
+if (!id_cliente) {
+window.id_cliente = "";
+} else {
+window.id_cliente = id_cliente;
+}
+
+
 function guid() {
 function s4() {
 return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
