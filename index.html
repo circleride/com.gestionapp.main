@@ -75,6 +75,7 @@
 <ul class="sidebar-elements menu_principal">
 <li><a href="index.html"><i class="icon s7-monitor"></i><span class="nombre_aplicativo">Sanzon</span></a></li>
 <li><a href="javascript:;" onclick="window.load_page('default');">Cambiar Aplicativo</a></li>
+<li><a href="javascript:;" onclick="window.ClearAll('');">Limpiar Datos</a></li>
 </ul>
 </div>
 </div>
@@ -129,6 +130,13 @@ $.getScript('assets/js/offline.js', function(){
 $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a href='index.html'>Sin conexi&oacute;n a la red, refrescar p&aacute;gina.</a></div></div>");
 });
 }
+
+window.ClearAll= function ClearAll() {
+window.localStorage.clear();
+localStorage.clear();
+alert("Reiniciando valores: ok | "+window.url_server);
+location = "index.html";
+};
 
 document.addEventListener("offline", onOffline, false);
 document.addEventListener("online", ActivateOnline, false);
