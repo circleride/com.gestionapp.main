@@ -70,7 +70,7 @@ window.url_server = url_server;
 
 var id_cliente = window.localStorage.getItem("id_cliente");
 if (!id_cliente) {
-window.id_cliente = "default";
+window.id_cliente = "";
 } else {
 window.id_cliente = id_cliente;
 }
