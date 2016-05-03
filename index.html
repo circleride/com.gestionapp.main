@@ -132,10 +132,15 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 }
 
 window.ClearAll= function ClearAll() {
+var r = confirm("¿Esta seguro?");
+if (r == true) {
 window.localStorage.clear();
 localStorage.clear();
-alert("Reiniciando valores: ok | "+window.url_server);
+alert("Reiniciando valores: ok | " + window.url_server);
 location = "index.html";
+} else {
+
+}
 };
 
 document.addEventListener("offline", onOffline, false);
