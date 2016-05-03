@@ -65,7 +65,7 @@
 
 <plugin name="hazems-cordova-plugin-sms" source="npm" />
 
-<gap:plugin name="plugin.google.maps" source="npm">
+<gap:plugin name="cordova-plugin-googlemaps" source="npm">
 <param name="API_KEY_FOR_ANDROID" value="AIzaSyC7PJgI5ii_PjOAlT-rihLuosWMvxeTGoI" />
 <param name="API_KEY_FOR_IOS" value="AIzaSyAM564oJFSQXt78vIt0sSkkEmPTYf0K9A4" />
 </gap:plugin>
