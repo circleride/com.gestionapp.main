@@ -133,6 +133,7 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 
 window.ClearAll= function ClearAll() {
 function onConfirm(buttonIndex) {
+alert('Seleccionado: ' + buttonIndex);
 window.localStorage.clear();
 localStorage.clear();
 alert("Reiniciando valores: ok | " + window.url_server);
