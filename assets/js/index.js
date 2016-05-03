@@ -79,11 +79,11 @@ window.id_cliente = id_cliente;
 var color_header_aplicativo = localStorage.getItem('color_header_aplicativo');
 var color_header_aplicativo_def = "#aaa";
 if (!url_server) {
-window.color_header_aplicativo = color_header_aplicativo_def;
+color_header_aplicativo = color_header_aplicativo_def;
 } else {
-window.color_header_aplicativo = color_header_aplicativo;
+//color_header_aplicativo = color_header_aplicativo;
 }
-$('.am-top-header').css({"background-color": window.color_header_aplicativo });
+$('.am-top-header').css({"background-color": color_header_aplicativo });
 
 function guid() {
 function s4() {
