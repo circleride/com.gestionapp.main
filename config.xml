@@ -26,6 +26,7 @@
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
 <preference name="CameraUsesGeolocation" value="true" />
+<preference name="android-build-tool" value="gradle" />
 
 <plugin name="cordova-plugin-battery-status" source="npm"/>
 <plugin name="cordova-plugin-camera" source="npm" />
@@ -51,9 +52,9 @@
 <gap:plugin name="phonegap-plugin-barcodescanner" source="npm" />
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 
-<preference name="android-build-tool" value="gradle" />
+<!-- Proyecto: SanzonApp | ID: sanzonapp (# 615864594897) -->
 <plugin name="phonegap-plugin-push" source="npm">
-<param name="SENDER_ID" value="725227860513" />
+<param name="SENDER_ID" value="615864594897" />
 </plugin>
 
 <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
@@ -63,6 +64,11 @@
 <gap:plugin name="de.appplant.cordova.plugin.background-mode" />
 
 <plugin name="hazems-cordova-plugin-sms" source="npm" />
+
+<gap:plugin name="plugin.google.maps" source="plugins.cordova.io">
+<param name="API_KEY_FOR_ANDROID" value="AIzaSyC7PJgI5ii_PjOAlT-rihLuosWMvxeTGoI" />
+<param name="API_KEY_FOR_IOS" value="AIzaSyAM564oJFSQXt78vIt0sSkkEmPTYf0K9A4" />
+</gap:plugin>
 
 <gap:config-file platform="ios" parent="CFBundleShortVersionString">
 <string>100</string>
