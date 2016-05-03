@@ -133,11 +133,13 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 
 window.ClearAll= function ClearAll() {
 function onConfirm(buttonIndex) {
-alert('Seleccionado: ' + buttonIndex);
+//alert('Seleccionado: ' + buttonIndex);
+if(buttonIndex == 1){
 window.localStorage.clear();
 localStorage.clear();
 alert("Reiniciando valores: ok | " + window.url_server);
 location = "index.html";
+}
 }
 navigator.notification.confirm(
 '¿Esta seguro?',
