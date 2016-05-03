@@ -132,16 +132,21 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 }
 
 window.ClearAll= function ClearAll() {
-var r = confirm("¿Esta seguro?");
-if (r == true) {
+function onConfirm(buttonIndex) {
 window.localStorage.clear();
 localStorage.clear();
 alert("Reiniciando valores: ok | " + window.url_server);
 location = "index.html";
-} else {
-
 }
+navigator.notification.confirm(
+'¿Esta seguro?',
+onConfirm,
+'Esta por borrar sus datos',
+['Borrar','Salir']
+);
 };
+
+
 
 document.addEventListener("offline", onOffline, false);
 document.addEventListener("online", ActivateOnline, false);
