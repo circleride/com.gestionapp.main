@@ -83,7 +83,7 @@ color_header_aplicativo = color_header_aplicativo_def;
 } else {
 //color_header_aplicativo = color_header_aplicativo;
 }
-$('.am-top-header').css({"background-color": color_header_aplicativo });
+$('.am-top-header').css("background-color", color_header_aplicativo );
 
 function guid() {
 function s4() {
