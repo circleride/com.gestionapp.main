@@ -122,7 +122,7 @@ $(this).prepend("No se pudo enlazar con el servidor.<br>" + e + "<br>"+jqxhr);
 
 window.load_page = function load_page(page){
 if(page) {
-$(".loaded_content_ajax").html("<div class='main-content'><div align='center'><i class='fa fa-cog fa-spin'></i></div></div>");
+$(".loaded_content_ajax").html("<div class='main-content'><div align='center'><i class='fa fa-cog fa-spin'></i><br><i class='fa fa-plug' aria-hidden='true'></i> "+window.url_server+"</div></div>");
 $.getJSON(window.url_server+"/movil/html.templates.php", { key: window.my_uuid, html: page, ajax: 'true' }, function (j) {
 var data_html = j['html'];
 $(".loaded_content_ajax").html(data_html);
@@ -135,9 +135,8 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 });
 }
 
-/* window.BorrarLS = function BorrarLS() {
+window.BorrarLS = function BorrarLS() {
 function onConfirm(buttonIndex) {
-//alert('Seleccionado: ' + buttonIndex);
 if(buttonIndex == 1){
 window.localStorage.clear();
 localStorage.clear();
@@ -146,7 +145,7 @@ location = "index.html";
 }
 }
 navigator.notification.confirm('¿Esta seguro?', onConfirm,'Esta por borrar sus datos', ['Borrar','Salir'] );
-}; */
+};
 
 document.addEventListener("offline", onOffline, false);
 document.addEventListener("online", ActivateOnline, false);
