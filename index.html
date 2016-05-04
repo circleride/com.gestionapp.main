@@ -101,7 +101,7 @@
 <!--- FIN FASE 2 -->
 </div>
 </nav>
-</div>
+
 
 <script type="text/javascript" charset="ISO-8859-1">
 window.onOnline = function onOnline(handle) {
@@ -144,7 +144,7 @@ alert("Reiniciando valores: ok | " + window.url_server);
 location = "index.html";
 }
 }
-navigator.notification.confirm('¿Esta seguro?', onConfirm,'Esta por borrar sus datos', ['Borrar','Salir'] );
+navigator.notification.confirm('¿Esta seguro?', onConfirm,'Esta por borrar sus datos', ['Si','No'] );
 };
 
 document.addEventListener("offline", onOffline, false);
