@@ -140,7 +140,7 @@ function onConfirm(buttonIndex) {
 if(buttonIndex == 1){
 window.localStorage.clear();
 localStorage.clear();
-alert("Reiniciando valores: ok | " + window.url_server);
+$(".loaded_content_ajax").html("Reiniciando valores | "+window.url_server);
 location = "index.html";
 }
 }
