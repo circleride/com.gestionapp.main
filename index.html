@@ -75,7 +75,7 @@
 <ul class="sidebar-elements menu_principal">
 <li><a href="index.html"><i class="icon s7-monitor"></i><span class="nombre_aplicativo">Sanzon</span></a></li>
 <li><a href="javascript:;" onclick="window.load_page('default');">Cambiar Aplicativo</a></li>
-<li><a href="javascript:;" onclick="window.ClearAll('');">Limpiar Datos</a></li>
+<li><a href="javascript:;" onclick="window.BorrarLS('');">Limpiar Datos</a></li>
 </ul>
 </div>
 </div>
@@ -131,7 +131,7 @@ $(".loaded_content_ajax").html("<div class='main-content'><div align='center'><a
 });
 }
 
-window.ClearAll= function ClearAll() {
+window.BorrarLS = function BorrarLS() {
 function onConfirm(buttonIndex) {
 //alert('Seleccionado: ' + buttonIndex);
 if(buttonIndex == 1){
