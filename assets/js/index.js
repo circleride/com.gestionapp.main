@@ -183,12 +183,12 @@ var app = {
             //$("#info_device").append(JSON.stringify(data));
             window.localStorage.setItem("token_push", JSON.stringify(data));
             console.log('notification event');
-            navigator.notification.alert(
+            /* navigator.notification.alert(
                 data.message,         // message
                 null,                 // callback
                 data.title,           // title
                 'Ok'                  // buttonName
-            );
+            ); */
        });
 }
 
