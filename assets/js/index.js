@@ -1,62 +1,7 @@
-/*
-function onDeviceReadyPush() {
-var push = PushNotification.init({
-    android: {
-        senderID: "725227860513"
-    },
-    ios: {
-        alert: "true",
-        badge: "true",
-        sound: "true"
-    },
-windows: {}
-});
-push.on('registration', function(data) {
-$("#info_device").append(JSON.stringify(data));
-});
-push.on('notification', function(data) {
-$("#info_device").append(JSON.stringify(data));
-    // data.message,
-    // data.title,
-    // data.count,
-    // data.sound,
-    // data.image,
-    // data.additionalData
-});
-push.on('error', function(e) {
-// e.message
-$("#info_device").append(JSON.stringify(e));
-});
+function function_exists(func)
+{
+return (eval('typeof '+func) === 'function' || false);
 }
-
-//window.localStorage.setItem("token_push", result);
-document.addEventListener('deviceready', onDeviceReadyPush, true);
-
-var app = {
-initialize: function() {
-this.bindEvents();
-},
-
-bindEvents: function() {
-document.addEventListener('deviceready', this.onDeviceReady, false);
-document.getElementById('scan').addEventListener('click', this.scan, false);
-},
-
-onDeviceReady: function() {
-app.receivedEvent('deviceready');
-//Funcion jquery
-},
-
-receivedEvent: function(id) {
-var parentElement = document.getElementById(id);
-var listeningElement = parentElement.querySelector('.listening');
-var receivedElement = parentElement.querySelector('.received');
-listeningElement.setAttribute('style', 'display:none;');
-receivedElement.setAttribute('style', 'display:block;');
-console.log('Received Event: ' + id);
-}
-};
-*/
 
 var url_server = localStorage.getItem('url_server');
 var url_server_def = "https://app.sanzon.mx";
@@ -123,73 +68,83 @@ window.onOnline(url);
 }
 
 var app = {
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.getElementById('scan').addEventListener('click', this.scan, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        console.log('Received Device Ready Event');
-        console.log('calling setup push');
-        app.setupPush();
-    },
-    setupPush: function() {
-        console.log('calling push init');
-        var push = PushNotification.init({
-            "android": {
-                "senderID": "615864594897"
-            },
-            "ios": {
-                "sound": true,
-                "vibration": true,
-                "badge": true
-            },
-            "windows": {}
-        });
-        console.log('after init');
-        push.on('registration', function(data) {
-            //$("#info_device").append(JSON.stringify(data));
-            console.log('registration event: ' + data.registrationId);
-            var oldRegId = localStorage.getItem('registrationId');
-            if (oldRegId !== data.registrationId) {
-                // Save new registration ID
-                localStorage.setItem('registrationId', data.registrationId);
-                // Post registrationId to your app server as the value has changed
-                window.localStorage.setItem("token_push", JSON.stringify(data));
-            }
+initialize: function() {
+this.bindEvents();
+},
+// Bind Event Listeners
+//
+// Bind any events that are required on startup. Common events are:
+// 'load', 'deviceready', 'offline', and 'online'.
+bindEvents: function() {
+document.addEventListener('deviceready', this.onDeviceReady, false);
+document.getElementById('scan').addEventListener('click', this.scan, false);
+},
+// deviceready Event Handler
+//
+// The scope of 'this' is the event. In order to call the 'receivedEvent'
+// function, we must explicitly call 'app.receivedEvent(...);'
+onDeviceReady: function() {
+//console.log('Received Device Ready Event');
+//console.log('calling setup push');
+app.setupPush();
+},
+setupPush: function() {
+//console.log('calling push init');
+var push = PushNotification.init({
+"android": {
+"senderID": "615864594897"
+},
+"ios": {
+"sound": true,
+"vibration": true,
+"badge": true
+},
+"windows": {}
+});
+console.log('after init');
+push.on('registration', function(data) {
+//$("#info_device").append(JSON.stringify(data));
+//  console.log('registration event: ' + data.registrationId);
+var oldRegId = localStorage.getItem('registrationId');
+if (oldRegId !== data.registrationId) {
+// Save new registration ID
+localStorage.setItem('registrationId', data.registrationId);
+// Post registrationId to your app server as the value has changed
+window.localStorage.setItem("token_push", JSON.stringify(data));
+}
+var parentElement = document.getElementById('registration');
+var listeningElement = parentElement.querySelector('.waiting');
+var receivedElement = parentElement.querySelector('.received');
+listeningElement.setAttribute('style', 'display:none;');
+receivedElement.setAttribute('style', 'display:block;');
 
-            var parentElement = document.getElementById('registration');
-            var listeningElement = parentElement.querySelector('.waiting');
-            var receivedElement = parentElement.querySelector('.received');
-            listeningElement.setAttribute('style', 'display:none;');
-            receivedElement.setAttribute('style', 'display:block;');
-        });
-        push.on('error', function(e) {
-            console.log("push error = " + e.message);
-            //$("#info_device").append(JSON.stringify(e));
-            window.localStorage.setItem("token_push", JSON.stringify(e));
-        });
-        push.on('notification', function(data) {
-            //$("#info_device").append(JSON.stringify(data));
-            window.localStorage.setItem("token_push", JSON.stringify(data));
-            console.log('notification event');
-            /* navigator.notification.alert(
-                data.message,         // message
-                null,                 // callback
-                data.title,           // title
-                'Ok'                  // buttonName
-            ); */
-       });
+});
+push.on('error', function(e) {
+console.log("push error = " + e.message);
+//$("#info_device").append(JSON.stringify(e));
+window.localStorage.setItem("token_push", JSON.stringify(e));
+
+});
+push.on('notification', function(data) {
+//$("#info_device").append(JSON.stringify(data));
+window.localStorage.setItem("token_push", JSON.stringify(data));
+console.log('notification event');
+
+//window.GetPushNotif = function GetPushNotif(data) {  };
+
+if(typeof GetPushNotif == 'function') {
+window.GetPushNotif(data);
+} else {
+window.GetPushNotif = data;
 }
 
+/* navigator.notification.alert(
+data.message,         // message
+null,                 // callback
+data.title,           // title
+'Ok'                  // buttonName
+); */
+
+});
+}
 };
