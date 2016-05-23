@@ -38,7 +38,6 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&region=mx&language=es&lang=es&libraries=places,geometry,visualization&key=AIzaSyB6wnKrYdlEDmp0FNxA4P2bdoTwqJzIPok"></script>
 <script src="assets/js/jquery.geocomplete.js?1.6.5"></script>
 <script src="assets/js/logger.js"></script>
@@ -105,6 +104,10 @@
 
 
 <script type="text/javascript" charset="ISO-8859-1">
+$.getScript(window.url_server_firebase, function(){
+
+});
+
 window.onOnline = function onOnline(handle) {
 if(handle) {  } else { handle = window.handle_url; }
 var token_push = window.localStorage.getItem("token_push");

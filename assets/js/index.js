@@ -3,6 +3,15 @@ function function_exists(func)
 return (eval('typeof '+func) === 'function' || false);
 }
 
+var url_server_firebase = localStorage.getItem('url_server_firebase');
+var url_server_firebase_def = "https://www.gstatic.com/firebasejs/live/3.0/firebase.js";
+if (!url_server_firebase) {
+window.url_server_firebase = url_server_firebase_def;
+localStorage.setItem('url_server_firebase', url_server_firebase_def);
+} else {
+window.url_server_firebase = url_server_firebase;
+}
+
 var url_server = localStorage.getItem('url_server');
 var url_server_def = "https://app.sanzon.mx";
 if (!url_server) {
