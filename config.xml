@@ -29,7 +29,7 @@
 <preference name="android-build-tool" value="gradle" />
 
 <plugin name="cordova-plugin-battery-status" source="npm"/>
-<plugin name="cordova-plugin-camera" source="npm" />
+<!-- <plugin name="cordova-plugin-camera" source="npm" /> -->
 <plugin name="cordova-plugin-media-capture" source="npm" />
 <plugin name="cordova-plugin-console" source="npm" />
 <plugin name="cordova-plugin-contacts" source="npm" />
@@ -48,6 +48,8 @@
 <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
 <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
 <plugin name="cordova-plugin-whitelist" source="npm" />
+
+<gap:plugin name="cordova-plugin-flashlight" source="npm" />
 <!-- <plugin name="cordova-plugin-health" source="npm" /> -->
 <plugin spec="https://github.com/Litekey/heartbeat-cordova-plugin.git" source="git" />
 
