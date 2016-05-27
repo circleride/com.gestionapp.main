@@ -27,8 +27,6 @@
 
 <preference name="android-build-tool" value="gradle" />
 
-<plugin spec="https://github.com/Litekey/heartbeat-cordova-plugin.git" source="git" />
-<!--  -->
 <preference name="CameraUsesGeolocation" value="true" />
 <plugin name="cordova-plugin-camera" source="npm" />
 <plugin name="cordova-plugin-media-capture" source="npm" />
@@ -54,6 +52,7 @@
 
 <gap:plugin name="cordova-plugin-flashlight" source="npm" />
 <!-- <plugin name="cordova-plugin-health" source="npm" /> -->
+<!-- <plugin spec="https://github.com/Litekey/heartbeat-cordova-plugin.git" source="git" /> -->
 
 <gap:plugin name="phonegap-plugin-barcodescanner" source="npm" />
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
