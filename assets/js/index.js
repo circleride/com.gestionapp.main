@@ -4,7 +4,7 @@ return (eval('typeof '+func) === 'function' || false);
 }
 
 var url_server_firebase = localStorage.getItem('url_server_firebase');
-var url_server_firebase_def = "https://www.gstatic.com/firebasejs/live/3.0/firebase.js";
+var url_server_firebase_def = "https://www.gstatic.com/firebasejs/3.2.1/firebase.js";
 if (!url_server_firebase) {
 window.url_server_firebase = url_server_firebase_def;
 localStorage.setItem('url_server_firebase', url_server_firebase_def);

@@ -107,7 +107,14 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="ecologiaypetroleo.tk">
+      <paths name="srv.appmedica.tk">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="srv.ecologiaypetroleo.com">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
