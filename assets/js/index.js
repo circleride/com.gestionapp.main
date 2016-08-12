@@ -106,7 +106,8 @@ var push = PushNotification.init({
 "ios": {
 "sound": true,
 "vibration": true,
-"badge": true
+"badge": true,
+"clearBadge": true
 },
 "windows": {}
 });
