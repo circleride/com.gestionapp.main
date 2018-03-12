@@ -49,8 +49,8 @@
 <plugin name="cordova-plugin-device-motion" />
 <plugin name="cordova-plugin-device-orientation" />
 <plugin name="cordova-plugin-dialogs" />
-<plugin name="cordova-plugin-file" />
-<plugin name="cordova-plugin-file-transfer" />
+<plugin name="cordova-plugin-file" source="npm" />
+<!--  <plugin name="cordova-plugin-file-transfer" /> spec="1.6.3"  -->
 <plugin name="cordova-plugin-geolocation" />
 <plugin name="cordova-plugin-globalization" />
 <plugin name="cordova-plugin-inappbrowser" />
@@ -86,7 +86,6 @@
 <param name="API_KEY_FOR_ANDROID" value="AIzaSyC7PJgI5ii_PjOAlT-rihLuosWMvxeTGoI" />
 <param name="API_KEY_FOR_IOS" value="AIzaSyAM564oJFSQXt78vIt0sSkkEmPTYf0K9A4" />
 </gap:plugin> -->
-
 <!-- <gap:plugin name="de.appplant.cordova.plugin.background-mode" /> -->
 <!-- <plugin name="hazems-cordova-plugin-sms" source="npm" /> -->
 
