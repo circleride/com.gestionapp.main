@@ -40,6 +40,7 @@
 <preference name="AllowInlineMediaPlayback" value="true"/>
 <preference name="MediaPlaybackRequiresUserAction" value="false"/>
 
+<plugin name="phonegap-plugin-local-notification" />
 <plugin name="cordova-plugin-battery-status" />
 <plugin name="cordova-plugin-camera" />
 <plugin name="cordova-plugin-media-capture" />
